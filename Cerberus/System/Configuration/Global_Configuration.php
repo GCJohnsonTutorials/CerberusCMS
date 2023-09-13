@@ -296,7 +296,7 @@ $_PROJECT_STRING_NAME_UNIX						= "CerberusCMS";
  ============================================================================================================
 */
 
-$_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION_APACHE				= apache_get_version();
+//$_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION_APACHE			= apache_get_version();
 $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION_MYSQL				= mysql_get_server_info();
 $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION_OPERATING_SYSTEM		= php_uname();
 $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION_PHP				= phpversion();
