@@ -82,12 +82,12 @@ echo ("
 * Personal :: Mobile Cell Device :: Component :: Firmware :: GPU :: <BR><BR>
 
 <B>Laptop / NoteBook :: Operating System</B><BR>
-* Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Operating System :: Arch-Linux<BR>
-* Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Operating System :: Free-BSD<BR><BR>
+* <A HREF=\"https://wiki.ArchLinux.org/title/Arch-based_distributions\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Arch-Linux Operating System::\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Operating System :: Arch-Linux</A><BR>
+* <A HREF=\"https://www.FreeBSD.org/where/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: FreeBSD Operating System\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Operating System :: Free-BSD</A><BR><BR>
 
 <B>Laptop / NoteBook :: Firmware</B><BR>
 * Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Firmware :: BIOS :: Linux-BIOS<BR>
-* Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Firmware :: BIOS :: CoreBoot<BR><BR>
+* <A HREF=\"https://www.CoreBoot.org/status/board-status.html\" TITLE=\":: Open & Display :: The Official Web Server :: For :: CoreBoot Device Firmware ::\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Firmware :: BIOS :: CoreBoot</A><BR><BR>
 
 <B>Router :: Operating System</B><BR>
 * Personal :: Home Router :: Digital Information Security Hardened :: Operating System :: Free-BSD<BR><BR>
