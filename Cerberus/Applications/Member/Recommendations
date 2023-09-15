@@ -121,7 +121,7 @@ echo ("
 * Personal :: Wired :: SkullCandy<BR>
 * Personal :: Wireless :: SkullCandy<BR><BR>
 
-<B>Recommended :: Hardware :: Web Server</B><BR>
+<B>Recommended :: Hardware :: Mobile :: Laptop :: Lenovo :: T :: 440P :: Upgrades</B><BR>
 --------------------------------------------------<BR>
 * Web Server :: Hardware Component :: Case ::<BR>
 * Web Server :: Hardware Component :: Power Supply ::<BR>
@@ -132,7 +132,62 @@ echo ("
 * Web Server :: Hardware Component :: Digital Storage Drive ::<BR>
 * Web Server :: Hardware Component :: Optical Drive ::<BR><BR>
 
-<B>Recommended :: Hardware :: Cloud Server</B><BR>
+<B>Recommended :: Hardware :: Mobile :: Laptop :: Samsung ::  GalaxyBook :: 3 :: Upgrades</B><BR>
+--------------------------------------------------<BR>
+* Web Server :: Hardware Component :: Case ::<BR>
+* Web Server :: Hardware Component :: Power Supply ::<BR>
+* Web Server :: Hardware Component :: Mainboard ::<BR>
+* Web Server :: Hardware Component :: Processor ::<BR>
+* Web Server :: Hardware Component :: Graphics Processor ::<BR>
+* Web Server :: Hardware Component :: Memory ::<BR>
+* Web Server :: Hardware Component :: Digital Storage Drive ::<BR>
+* Web Server :: Hardware Component :: Optical Drive ::<BR><BR>
+
+<B>Recommended :: Hardware :: Mobile :: Laptop :: Lenovo :: MSI :: GT / SlimBook :: Upgrades</B><BR>
+--------------------------------------------------<BR>
+* Web Server :: Hardware Component :: Case ::<BR>
+* Web Server :: Hardware Component :: Power Supply ::<BR>
+* Web Server :: Hardware Component :: Mainboard ::<BR>
+* Web Server :: Hardware Component :: Processor ::<BR>
+* Web Server :: Hardware Component :: Graphics Processor ::<BR>
+* Web Server :: Hardware Component :: Memory ::<BR>
+* Web Server :: Hardware Component :: Digital Storage Drive ::<BR>
+* Web Server :: Hardware Component :: Optical Drive ::<BR><BR>
+
+<B>Recommended :: Hardware :: Home / Business :: Desktop</B><BR>
+--------------------------------------------------<BR>
+* Web Server :: Hardware Component :: Case ::<BR>
+* Web Server :: Hardware Component :: Power Supply ::<BR>
+* Web Server :: Hardware Component :: Mainboard ::<BR>
+* Web Server :: Hardware Component :: Processor ::<BR>
+* Web Server :: Hardware Component :: Graphics Processor ::<BR>
+* Web Server :: Hardware Component :: Memory ::<BR>
+* Web Server :: Hardware Component :: Digital Storage Drive ::<BR>
+* Web Server :: Hardware Component :: Optical Drive ::<BR><BR>
+
+<B>Recommended :: Hardware :: Home / Business :: Media Center</B><BR>
+--------------------------------------------------<BR>
+* Web Server :: Hardware Component :: Case ::<BR>
+* Web Server :: Hardware Component :: Power Supply ::<BR>
+* Web Server :: Hardware Component :: Mainboard ::<BR>
+* Web Server :: Hardware Component :: Processor ::<BR>
+* Web Server :: Hardware Component :: Graphics Processor ::<BR>
+* Web Server :: Hardware Component :: Memory ::<BR>
+* Web Server :: Hardware Component :: Digital Storage Drive ::<BR>
+* Web Server :: Hardware Component :: Optical Drive ::<BR><BR>
+
+<B>Recommended :: Hardware :: Home / Business :: Web Server</B><BR>
+--------------------------------------------------<BR>
+* Web Server :: Hardware Component :: Case ::<BR>
+* Web Server :: Hardware Component :: Power Supply ::<BR>
+* Web Server :: Hardware Component :: Mainboard ::<BR>
+* Web Server :: Hardware Component :: Processor ::<BR>
+* Web Server :: Hardware Component :: Graphics Processor ::<BR>
+* Web Server :: Hardware Component :: Memory ::<BR>
+* Web Server :: Hardware Component :: Digital Storage Drive ::<BR>
+* Web Server :: Hardware Component :: Optical Drive ::<BR><BR>
+
+<B>Recommended :: Hardware :: Home / Business :: Cloud Server</B><BR>
 --------------------------------------------------<BR>
 * Cloud Server :: Hardware Component :: Case ::<BR>
 * Cloud Server :: Hardware Component :: Power Supply ::<BR>
@@ -143,7 +198,7 @@ echo ("
 * Cloud Server :: Hardware Component :: Digital Storage Drive ::<BR>
 * Cloud Server :: Hardware Component :: Optical Drive ::<BR><BR>
 
-<B>Recommended :: Hardware :: Web Server :: Hardware Security Appliance</B><BR>
+<B>Recommended :: Hardware :: Home / Business :: Web Server :: Hardware Security Appliance</B><BR>
 --------------------------------------------------<BR>
 * Web Server :: Hardware Security Appliance :: Forti Web Guard<BR>
 * Web Server :: Hardware Security Appliance :: Fire Guardian<BR><BR>
