@@ -81,47 +81,47 @@ echo ("
 * Personal :: Mobile Cell Device :: Component :: Firmware :: CPU :: <BR>
 * Personal :: Mobile Cell Device :: Component :: Firmware :: GPU :: <BR><BR>
 
-<B>Laptop / NoteBook :: Operating System</B><BR>
+<B>Mobile Device :: Laptop / NoteBook :: Operating System</B><BR>
 * <A HREF=\"https://wiki.ArchLinux.org/title/Arch-based_distributions\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Arch-Linux Operating System::\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Operating System :: Arch-Linux</A><BR>
 * <A HREF=\"https://www.FreeBSD.org/where/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: FreeBSD Operating System\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Operating System :: Free-BSD</A><BR><BR>
 
-<B>Laptop / NoteBook :: Firmware</B><BR>
+<B>Mobile Device :: Laptop / NoteBook :: Firmware</B><BR>
 * Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Firmware :: BIOS :: Linux-BIOS<BR>
 * <A HREF=\"https://www.CoreBoot.org/status/board-status.html\" TITLE=\":: Open & Display :: The Official Web Server :: For :: CoreBoot Device Firmware ::\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Firmware :: BIOS :: CoreBoot</A><BR><BR>
 
-<B>Router :: Operating System</B><BR>
+<B>Networking :: Router :: Operating System</B><BR>
 * <A HREF=\"https://www.BSDRP.net/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Free-BSD BSDRP ::\">Personal :: Home Router :: Digital Information Security Hardened :: Operating System :: Free-BSD :: BSDRP</A><BR><BR>
 
-<B>Router :: Firmware</B><BR>
+<B>Networkin :: Router :: Firmware</B><BR>
 * <A HREF=\"https://www.FreshTomato.org/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: FreshTomato Network Router Firmware Project\">Personal :: Network :: Home Router :: Digital Information Security Hardened :: Firmware :: FreshTomato</A><BR><BR>
 
-<B>Recommended :: Electronic Devices</B><BR>
+<B>Recommended :: Mobile Devices :: Electronic Devices</B><BR>
 --------------------------------------------------<BR>
-<B>Laptop / NoteBook</B><BR>
+<B>Mobile Device :: Laptop / NoteBook</B><BR>
 * <A HREF=\"https://www.Lenovo.com/il/en/laptops/thinkpad/t-series/ThinkPad-T440p/p/22TP2TT440P\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lenovo ThinkPad ::\">Personal :: Laptop / NoteBook :: Lenovo :: ThinkPad :: T440P</A><BR>
 * <A HREF=\"https://www.Samsung.com/us/computing/galaxy-books/all-galaxy-books/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Samsung GalaxyBook ::\">Personal :: Laptop / NoteBook :: Samsung :: GalaxyBook :: 3</A><BR>
 * <A HREF=\"https://us.MSI.com/Laptops/Products#?tag=Titan-GT-Series\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Micro-Star International GT & SlimBook ::\">Personal :: Laptop / NoteBook :: MSI :: Titan :: GT & SlimBook</A><BR><BR>
 
-<B>Smart Watch</B><BR>
+<B>Mobile Device :: Smart Watch</B><BR>
 * Personal :: Smart Watch :: Lenovo<BR>
 * Personal :: Smart Watch :: Samsung<BR><BR>
 
-<B>Smart Glasses</B><BR>
+<B>Mobile Device :: Smart Glasses</B><BR>
 * Personal :: Smart Glasses :: Lenovo<BR>
 * Personal :: Smart Glasses :: Ray-Ban<BR>
 * Personal :: Smart Glasses :: Samsung<BR><BR>
 
-<B>Home Router</B><BR>
+<B>Mobile Device :: EarPhones / EarBuds</B><BR>
+* Personal :: Wired :: SkullCandy<BR>
+* Personal :: Wireless :: SkullCandy<BR><BR>
+
+<B>Networking :: Home Router</B><BR>
 * Personal :: Home Router :: ASUS<BR>
 * Personal :: Home Router :: Custom Built<BR>
 * Personal :: Home Router :: Lenovo<BR>
 * Personal :: Home Router :: Samsung<BR><BR>
 
-<B>EarPhones / EarBuds</B><BR>
-* Personal :: Wired :: SkullCandy<BR>
-* Personal :: Wireless :: SkullCandy<BR><BR>
-
-<B>Recommended :: Hardware :: Mobile :: Laptop :: Lenovo :: T :: 440P :: Upgrades</B><BR>
+<B>Recommended :: Hardware :: Mobile Device :: Laptop :: Lenovo :: T :: 440P :: Upgrades</B><BR>
 --------------------------------------------------<BR>
 * Web Server :: Hardware Component :: Case ::<BR>
 * Web Server :: Hardware Component :: Power Supply ::<BR>
@@ -132,7 +132,7 @@ echo ("
 * Web Server :: Hardware Component :: Digital Storage Drive ::<BR>
 * Web Server :: Hardware Component :: Optical Drive ::<BR><BR>
 
-<B>Recommended :: Hardware :: Mobile :: Laptop :: Samsung ::  GalaxyBook :: 3 :: Upgrades</B><BR>
+<B>Recommended :: Hardware :: Mobile Device :: Laptop :: Samsung ::  GalaxyBook :: 3 :: Upgrades</B><BR>
 --------------------------------------------------<BR>
 * Web Server :: Hardware Component :: Case ::<BR>
 * Web Server :: Hardware Component :: Power Supply ::<BR>
@@ -143,7 +143,7 @@ echo ("
 * Web Server :: Hardware Component :: Digital Storage Drive ::<BR>
 * Web Server :: Hardware Component :: Optical Drive ::<BR><BR>
 
-<B>Recommended :: Hardware :: Mobile :: Laptop :: Lenovo :: MSI :: GT / SlimBook :: Upgrades</B><BR>
+<B>Recommended :: Hardware :: Mobile Device :: Laptop :: Lenovo :: MSI :: GT / SlimBook :: Upgrades</B><BR>
 --------------------------------------------------<BR>
 * Web Server :: Hardware Component :: Case ::<BR>
 * Web Server :: Hardware Component :: Power Supply ::<BR>
@@ -185,7 +185,8 @@ echo ("
 * Web Server :: Hardware Component :: Graphics Processor ::<BR>
 * Web Server :: Hardware Component :: Memory ::<BR>
 * Web Server :: Hardware Component :: Digital Storage Drive ::<BR>
-* Web Server :: Hardware Component :: Optical Drive ::<BR><BR>
+* Web Server :: Hardware Component :: Optical Drive ::<BR>
+* Web Server :: Hardware Component :: Session Initiation Processor ::<BR><BR>
 
 <B>Recommended :: Hardware :: Home / Business :: Cloud Server</B><BR>
 --------------------------------------------------<BR>
