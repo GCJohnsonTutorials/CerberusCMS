@@ -67,8 +67,9 @@ echo ("
 <B>Recommended :: Device Firmware, Operating Systems and Software</B><BR>
 --------------------------------------------------<BR>
 <B>Mobile Device :: Operating System</B><BR>
-* Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: LineageOS<BR>
-* Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: Linux Mobile<BR><BR>
+* <A HREF=\"https://www.Havoc-OS.com/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Havoc Operating System\">Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: HavocOS</A><BR>
+* <A HREF=\"https://wiki.LineageOS.org/devices/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lineage Operating System\">Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: LineageOS</A><BR>
+* <A HREF=\"<A HREF=\"https://www.Plasma-Mobile.org/get/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: KDE Plasma Linux Mobile\">\" TITLE=\":: Open & Display :: The Official Web Server :: For :: KDE Plasma Linux Mobile\">Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: KDE Plasma Linux Mobile<BR><BR>
 
 <B>Mobile Device :: Firmware</B><BR>
 * Personal :: Mobile Cell Device :: Component :: Firmware :: Modem :: FireModem<BR>
