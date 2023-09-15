@@ -67,9 +67,9 @@ echo ("
 <B>Recommended :: Device Firmware, Operating Systems and Software</B><BR>
 --------------------------------------------------<BR>
 <B>Mobile Device :: Operating System</B><BR>
-* <A HREF=\"https://www.Havoc-OS.com/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Havoc Operating System\">Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: HavocOS</A><BR>
-* <A HREF=\"https://wiki.LineageOS.org/devices/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lineage Operating System\">Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: LineageOS</A><BR>
-* <A HREF=\"https://www.Plasma-Mobile.org/get/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: KDE Plasma Linux Mobile\">\" TITLE=\":: Open & Display :: The Official Web Server :: For :: KDE Plasma Linux Mobile\">Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: KDE Plasma Linux Mobile</A><BR><BR>
+* <A HREF=\"https://www.Havoc-OS.com/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Havoc Operating System ::\" TARGET=\"_NEW\">Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: HavocOS</A><BR>
+* <A HREF=\"https://wiki.LineageOS.org/devices/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lineage Operating System ::\" TARGET=\"_NEW\">Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: LineageOS</A><BR>
+* <A HREF=\"https://www.Plasma-Mobile.org/get/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: KDE Plasma Linux Mobile ::\" TARGET=\"_NEW\">Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: KDE Plasma Linux Mobile</A><BR><BR>
 
 <B>Mobile Device :: Firmware</B><BR>
 * Personal :: Mobile Cell Device :: Component :: Firmware :: Modem :: FireModem<BR>
@@ -82,38 +82,39 @@ echo ("
 * Personal :: Mobile Cell Device :: Component :: Firmware :: GPU :: <BR><BR>
 
 <B>Mobile Device :: Laptop / NoteBook :: Operating System</B><BR>
-* <A HREF=\"https://wiki.ArchLinux.org/title/Arch-based_distributions\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Arch-Linux Operating System::\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Operating System :: Arch-Linux</A><BR>
-* <A HREF=\"https://www.FreeBSD.org/where/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: FreeBSD Operating System\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Operating System :: Free-BSD</A><BR><BR>
+* <A HREF=\"https://wiki.ArchLinux.org/title/Arch-based_distributions\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Arch-Linux Operating System ::\" TARGET=\"_NEW\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Operating System :: Arch-Linux</A><BR>
+* <A HREF=\"https://www.FreeBSD.org/where/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: FreeBSD Operating System ::\" TARGET=\"_NEW\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Operating System :: Free-BSD</A><BR><BR>
 
 <B>Mobile Device :: Laptop / NoteBook :: Firmware</B><BR>
 * Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Firmware :: BIOS :: Linux-BIOS<BR>
-* <A HREF=\"https://www.CoreBoot.org/status/board-status.html\" TITLE=\":: Open & Display :: The Official Web Server :: For :: CoreBoot Device Firmware ::\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Firmware :: BIOS :: CoreBoot</A><BR><BR>
+* <A HREF=\"https://www.CoreBoot.org/status/board-status.html\" TITLE=\":: Open & Display :: The Official Web Server :: For :: CoreBoot Device Firmware ::\" TARGET=\"_NEW\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Firmware :: BIOS :: CoreBoot</A><BR><BR>
 
 <B>Networking :: Router :: Operating System</B><BR>
-* <A HREF=\"https://www.BSDRP.net/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Free-BSD BSDRP ::\">Personal :: Home Router :: Digital Information Security Hardened :: Operating System :: Free-BSD :: BSDRP</A><BR><BR>
+* <A HREF=\"https://www.BSDRP.net/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Free-BSD BSDRP ::\" TARGET=\"_NEW\">Personal :: Home Router :: Digital Information Security Hardened :: Operating System :: Free-BSD :: BSDRP</A><BR><BR>
 
-<B>Networkin :: Router :: Firmware</B><BR>
-* <A HREF=\"https://www.FreshTomato.org/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: FreshTomato Network Router Firmware Project\">Personal :: Network :: Home Router :: Digital Information Security Hardened :: Firmware :: FreshTomato</A><BR><BR>
+<B>Networking :: Router :: Firmware</B><BR>
+* <A HREF=\"https://www.FreshTomato.org/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: FreshTomato Network Router Firmware Project ::\" TARGET=\"_NEW\">Personal :: Network :: Home Router :: Digital Information Security Hardened :: Firmware :: FreshTomato</A><BR><BR>
 
 <B>Recommended :: Mobile Devices :: Electronic Devices</B><BR>
 --------------------------------------------------<BR>
 <B>Mobile Device :: Laptop / NoteBook</B><BR>
-* <A HREF=\"https://www.Lenovo.com/il/en/laptops/thinkpad/t-series/ThinkPad-T440p/p/22TP2TT440P\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lenovo ThinkPad ::\">Personal :: Laptop / NoteBook :: Lenovo :: ThinkPad :: T440P</A><BR>
-* <A HREF=\"https://www.Samsung.com/us/computing/galaxy-books/all-galaxy-books/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Samsung GalaxyBook ::\">Personal :: Laptop / NoteBook :: Samsung :: GalaxyBook :: 3</A><BR>
-* <A HREF=\"https://us.MSI.com/Laptops/Products#?tag=Titan-GT-Series\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Micro-Star International GT & SlimBook ::\">Personal :: Laptop / NoteBook :: MSI :: Titan :: GT & SlimBook</A><BR><BR>
+* <A HREF=\"https://www.Lenovo.com/il/en/laptops/thinkpad/t-series/ThinkPad-T440p/p/22TP2TT440P\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lenovo ThinkPad ::\" TARGET=\"_NEW\">Personal :: Laptop / NoteBook :: Lenovo :: ThinkPad :: T440P</A><BR>
+* <A HREF=\"https://www.Samsung.com/us/computing/galaxy-books/all-galaxy-books/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Samsung GalaxyBook ::\" TARGET=\"_NEW\">Personal :: Laptop / NoteBook :: Samsung :: GalaxyBook :: 3</A><BR>
+* <A HREF=\"https://us.MSI.com/Laptops/Products#?tag=Titan-GT-Series\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Micro-Star International GT & SlimBook ::\" TARGET=\"_NEW\">Personal :: Laptop / NoteBook :: MSI :: Titan :: GT & SlimBook</A><BR><BR>
 
 <B>Mobile Device :: Smart Watch</B><BR>
-* Personal :: Smart Watch :: Lenovo<BR>
-* Personal :: Smart Watch :: Samsung<BR><BR>
+* Personal :: Mobile Device :: Smart Watch :: Google<BR>
+* Personal :: Mobile Device :: Smart Watch :: Lenovo<BR>
+* Personal :: Mobile Device :: Smart Watch :: Samsung<BR><BR>
 
 <B>Mobile Device :: Smart Glasses</B><BR>
-* Personal :: Smart Glasses :: Lenovo<BR>
-* Personal :: Smart Glasses :: Ray-Ban<BR>
-* Personal :: Smart Glasses :: Samsung<BR><BR>
+* Personal :: Mobile Device :: Smart Glasses :: Lenovo<BR>
+* Personal :: Mobile Device :: Smart Glasses :: Ray-Ban<BR>
+* Personal :: Mobile Device :: Smart Glasses :: Samsung<BR><BR>
 
 <B>Mobile Device :: EarPhones / EarBuds</B><BR>
-* Personal :: Wired :: SkullCandy<BR>
-* Personal :: Wireless :: SkullCandy<BR><BR>
+* Personal :: Mobile Device :: Wired :: SkullCandy<BR>
+* Personal :: Mobile Device :: Wireless :: SkullCandy<BR><BR>
 
 <B>Networking :: Home Router</B><BR>
 * Personal :: Home Router :: ASUS<BR>
@@ -205,7 +206,7 @@ echo ("
 * Web Server :: Hardware Security Appliance :: Fire Guardian<BR><BR>
 
 <B>Recommended :: Instructions :: Firmware :: Flashing</B><BR>
-* <A HREF=\"https://www.Youtube.com/watch?v=pqjsM18pKCE\" TITLE=\":: Open & Display :: The Official CoreBoot Flashing Tutorial :: Hosted On YouTube\">Peronsal :: Mobile Device :: Firmware :: Lenovo :: T :: 440P</A><BR><BR>
+* <A HREF=\"https://www.Youtube.com/watch?v=pqjsM18pKCE\" TITLE=\":: Open & Display :: The Official CoreBoot Flashing Tutorial :: Hosted On YouTube ::\" TARGET=\"_NEW\">Peronsal :: Mobile Device :: Firmware :: Lenovo :: T :: 440P</A><BR><BR>
 
 <B>Recommended :: Web Server :: Operating System :: Applications :: Linux</B><BR>
 --------------------------------------------------<BR>
