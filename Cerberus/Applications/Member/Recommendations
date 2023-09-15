@@ -104,9 +104,9 @@ echo ("
 * <A HREF=\"https://www.SlimBook.es/en/essential-en\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Custom Manufactured SlimBook ::\" TARGET=\"_NEW\">Personal :: Laptop / NoteBook :: Titan :: Custom Manufactured SlimBook</A><BR><BR>
 
 <B>Mobile Device :: Smart Watch</B><BR>
-* Personal :: Mobile Device :: Smart Watch :: Google<BR>
-* Personal :: Mobile Device :: Smart Watch :: Lenovo<BR>
-* Personal :: Mobile Device :: Smart Watch :: Samsung<BR><BR>
+* <A HREF=\"https://store.Google.com/product/google_pixel_watch?hl=en-US\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Google Pixel Smart Watch ::\">Personal :: Mobile Device :: Smart Watch :: Google :: Pixel</A><BR>
+* <A HREF=\"https://www.Amazon.com/-/en/Lenovo-Smartwatch-Global-Version-Black/dp/B08B34Q58H\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lenovo Smart Watch ::\">Personal :: Mobile Device :: Smart Watch :: Lenovo :: S<BR>
+* <A HREF=\"https://www.Samsung.com/us/watches/galaxy-watch/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Samsung Galaxy Smart Watch ::\">Personal :: Mobile Device :: Smart Watch :: Samsung :: Galaxy<BR><BR>
 
 <B>Mobile Device :: Smart Glasses</B><BR>
 * Personal :: Mobile Device :: Smart Glasses :: Lenovo<BR>
@@ -114,6 +114,8 @@ echo ("
 * Personal :: Mobile Device :: Smart Glasses :: Samsung<BR><BR>
 
 <B>Mobile Device :: EarPhones / EarBuds</B><BR>
+* Personal :: Mobile Device :: Wired :: Samsung :: Galaxy :: Buds<BR>
+* Personal :: Mobile Device :: Wireless :: Samsung :: Galaxy :: Buds<BR>
 * Personal :: Mobile Device :: Wired :: SkullCandy<BR>
 * Personal :: Mobile Device :: Wireless :: SkullCandy<BR><BR>
 
