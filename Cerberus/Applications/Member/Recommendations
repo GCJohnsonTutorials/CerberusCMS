@@ -67,9 +67,12 @@ echo ("
 <B>Recommended :: Device Firmware, Operating Systems and Software</B><BR>
 --------------------------------------------------<BR>
 <B>Mobile Device :: Operating System</B><BR>
-* <A HREF=\"https://www.Havoc-OS.com/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Havoc Operating System ::\" TARGET=\"_NEW\">Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: HavocOS</A> <A HREF=\"https://www.YouTube.com/watch?v=UqtpHxiM5Co\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official HavocOS YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR>
-* <A HREF=\"https://wiki.LineageOS.org/devices/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lineage Operating System ::\" TARGET=\"_NEW\">Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: LineageOS</A> <A HREF=\"https://www.YouTube.com/watch?v=CVXTKqbXyhg\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official LineageOS YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR>
-* <A HREF=\"https://www.Plasma-Mobile.org/get/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: KDE Plasma Linux Mobile ::\" TARGET=\"_NEW\">Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: KDE Plasma Linux Mobile</A> <A HREF=\"https://www.YouTube.com/watch?v=bBiQgjrBQAk\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official KDE Plasma Mobile YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR><BR>
+* <A HREF=\"https://www.Havoc-OS.com/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Havoc Operating System ::\" TARGET=\"_NEW\">Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: HavocOS</A><BR>
+<A HREF=\"https://www.YouTube.com/watch?v=UqtpHxiM5Co\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official HavocOS YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR>
+* <A HREF=\"https://wiki.LineageOS.org/devices/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lineage Operating System ::\" TARGET=\"_NEW\">Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: LineageOS</A><BR>
+<A HREF=\"https://www.YouTube.com/watch?v=CVXTKqbXyhg\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official LineageOS YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR>
+* <A HREF=\"https://www.Plasma-Mobile.org/get/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: KDE Plasma Linux Mobile ::\" TARGET=\"_NEW\">Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: KDE Plasma Linux Mobile</A><BR>
+<A HREF=\"https://www.YouTube.com/watch?v=bBiQgjrBQAk\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official KDE Plasma Mobile YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR><BR>
 
 <B>Mobile Device :: Firmware</B><BR>
 * Personal :: Mobile Cell Device :: Component :: Firmware :: Modem :: FireModem<BR>
@@ -82,8 +85,10 @@ echo ("
 * Personal :: Mobile Cell Device :: Component :: Firmware :: GPU :: <BR><BR>
 
 <B>Mobile Device :: Laptop / NoteBook :: Operating System</B><BR>
-* <A HREF=\"https://wiki.ArchLinux.org/title/Arch-based_distributions\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Arch-Linux Operating System ::\" TARGET=\"_NEW\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Operating System :: Arch-Linux</A> <A HREF=\"https://www.YouTube.com/watch?v=fqoaOubtABs\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official Arch-Linux YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR>
-* <A HREF=\"https://www.FreeBSD.org/where/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: FreeBSD Operating System ::\" TARGET=\"_NEW\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Operating System :: Free-BSD</A> <A HREF=\"https://www.YouTube.com/watch?v=0qq3H8pflU0\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official Arch-Linux YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR><BR>
+* <A HREF=\"https://wiki.ArchLinux.org/title/Arch-based_distributions\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Arch-Linux Operating System ::\" TARGET=\"_NEW\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Operating System :: Arch-Linux</A><BR>
+<A HREF=\"https://www.YouTube.com/watch?v=fqoaOubtABs\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official Arch-Linux YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR>
+* <A HREF=\"https://www.FreeBSD.org/where/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: FreeBSD Operating System ::\" TARGET=\"_NEW\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Operating System :: Free-BSD</A><BR>
+<A HREF=\"https://www.YouTube.com/watch?v=0qq3H8pflU0\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official Arch-Linux YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR><BR>
 
 <B>Mobile Device :: Laptop / NoteBook :: Firmware</B><BR>
 * Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Firmware :: BIOS :: Linux-BIOS<BR>
@@ -105,8 +110,10 @@ echo ("
 
 <B>Mobile Device :: Military Specification :: Smart Phone</B><BR>
 * <A HREF=\"https://store.Google.com/us/config/pixel_6a?hl=en-US\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Google Pixel Mobile Cell Phone Devices ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Cell Phone :: Internationally Unlocked :: Google :: Pixel :: 6A</A><BR>
-* <A HREF=\"https://www.Lenovo.com/us/en/p/phones/motorola-smartphones/thinkphone/thinkphone-by-motorola/paxm0000us\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lenovo ThinkPhone Mobile Cell Phone Devices ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Cell Phone :: Internationally Unlocked :: Lenovo :: ThinkPhone :: A9</A> <A HREF=\"https://www.YouTube.com/watch?v=-bh5LOnokU4\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official Lenovo ThinkPhone YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR>
-* <A HREF=\"https://wiki.Lineageos.org/devices/zippo/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lenovo Zippo Mobile Cell Phone Devices ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Cell Phone :: Internationally Unlocked :: Lenovo :: Zippo :: Z6 Professional</A> <A HREF=\"https://www.YouTube.com/watch?v=7VYl0FBjRzo\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official Lenovo Zippo Phone YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR>
+* <A HREF=\"https://www.Lenovo.com/us/en/p/phones/motorola-smartphones/thinkphone/thinkphone-by-motorola/paxm0000us\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lenovo ThinkPhone Mobile Cell Phone Devices ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Cell Phone :: Internationally Unlocked :: Lenovo :: ThinkPhone :: A9</A><BR>
+<A HREF=\"https://www.YouTube.com/watch?v=-bh5LOnokU4\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official Lenovo ThinkPhone YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR>
+* <A HREF=\"https://wiki.Lineageos.org/devices/zippo/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lenovo Zippo Mobile Cell Phone Devices ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Cell Phone :: Internationally Unlocked :: Lenovo :: Zippo :: Z6 Professional</A><BR>
+<A HREF=\"https://www.YouTube.com/watch?v=7VYl0FBjRzo\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official Lenovo Zippo Phone YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR>
 * <A HREF=\"https://wiki.lineageos.org/devices/star2lte/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Samsung Galaxy Mobile Cell Phone Devices ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Cell Phone :: Internationally Unlocked :: Samsung :: Galaxy :: S9+</A><BR><BR>
 
 <B>Mobile Device :: Military Specification :: Smart Watch</B><BR>
