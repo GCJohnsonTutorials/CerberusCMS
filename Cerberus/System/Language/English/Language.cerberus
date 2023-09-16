@@ -1509,6 +1509,30 @@ $_Application_Module_Member_Message_Profile_NO_COMMENTS									= "<CENTER>Cerbe
  ============================================================================================================
  +
  +
+ + [ @ ] Recommendations
+ +
+ +
+ ============================================================================================================
+*/
+
+/*
+ ============================================================================================================
+ + Header
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_Recommendations_Header									= "<CENTER>[ <B><A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Application_List\" TITLE=\"Open & Display The Application Module :: Application List\">Root</A> => <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Recommendations\" TITLE=\"Root => Open & Display The Application Module :: Recommendations\">Recommendations</A> => <A HREF=\"./Applications/Member/Recommendations\" TITLE=\"Open & Display The Source Code For The Application Module :: Recommendations\">Source</A></B> ]</CENTER><HR><BR>";
+
+/*
+ ============================================================================================================
+ + Messages
+ ============================================================================================================
+*/
+
+/*
+ ============================================================================================================
+ +
+ +
  + [ @ ] Referrers
  +
  +
