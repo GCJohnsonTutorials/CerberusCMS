@@ -269,10 +269,10 @@ License Plate Scanner<BR><BR>
 <B>Recommended :: Personal :: Operating System :: Applications :: Linux :: Package Manager :: PAC-Man</B><BR>
 <OBJECT DATA=\"./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/Text/Recommendations_Personal_Applications_Linux_PacMan.txt\" WIDTH=\"75%\" HEIGHT=\"150\"></OBJECT><BR><BR>
 
-<B>Recommended :: Web Server :: Operating System :: Applications :: Linux :: Package Manager :: PAC-Man</B><BR>
-<OBJECT DATA=\"./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/Text/Recommendations_Applications_WebServer_Linux.txt\" WIDTH=\"75%\" HEIGHT=\"150\"></OBJECT><BR><BR>
+<B>Recommended :: Personal :: Operating System :: Applications :: AOSP :: Package Manager :: Terminal</B><BR>
+<OBJECT DATA=\"./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/Text/Recommendations_Personal_Applications_AOSP_Terminal.txt\" WIDTH=\"75%\" HEIGHT=\"150\"></OBJECT><BR><BR>
 
-<B>Recommended :: Personal :: Operating System :: Applications :: AOSP :: Package Manager :: Play</B><BR>
-<OBJECT DATA=\"./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/Text/Recommendations_Applications_Personal_AOSP.txt\" WIDTH=\"75%\" HEIGHT=\"150\"></OBJECT><BR><BR>
+<B>Recommended :: Web Server :: Operating System :: Applications :: Linux :: Package Manager :: PAC-Man</B><BR>
+<OBJECT DATA=\"./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/Text/Recommendations_WebServer_Applications_Linux_PacMan.txt\" WIDTH=\"75%\" HEIGHT=\"150\"></OBJECT><BR><BR>
 ");
 ?>
