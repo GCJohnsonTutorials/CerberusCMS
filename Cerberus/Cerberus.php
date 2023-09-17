@@ -4109,7 +4109,7 @@ if ($_GET["$_INTERNAL_APPLICATION_MODULE_INTERNAL"] == "Theme") {
 
 	$_KERNEL_POST_SET_THEME	 							= $_POST['IAM_Set_Theme'];
 	
-	setcookie("kernel_directory_theme", "$_KERNEL_POST_SET_THEME", time()+$_GLOBAL_SYSTEM_COOKIE_TIME);
+	setcookie("kernel_visitor_directory_theme", "$_KERNEL_POST_SET_THEME", time()+$_GLOBAL_SYSTEM_COOKIE_TIME);
 
 	header("Location: ?$_INTERNAL_APPLICATION_MODULE_MEMBER=Theme&Message=ThemeSet");
 	exit;
