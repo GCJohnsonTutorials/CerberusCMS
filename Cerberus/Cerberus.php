@@ -1179,6 +1179,7 @@ if ($_GLOBAL_MEMBER_ACCOUNT_DEVICE_WEB_BROWSER_AUTHORIZED != "$_GLOBAL_REMOTE_SE
 	setcookie("kernel_member_password", "", time()-42000);
 	setcookie("kernel_member_security_fingerprint", "", time()-42000);
 	setcookie("kernel_member_username", "", time()-42000);
+	setcookie("kernel_visitor_directory_theme", "", time()-42000);
 
 /*
  ============================================================================================================
@@ -1244,6 +1245,7 @@ if ($_GLOBAL_MEMBER_ACCOUNT_DEVICE_MAC_ADDRESS_AUTHORIZED != "$_GLOBAL_REMOTE_DE
 	setcookie("kernel_member_password", "", time()-42000);
 	setcookie("kernel_member_security_fingerprint", "", time()-42000);
 	setcookie("kernel_member_username", "", time()-42000);
+	setcookie("kernel_visitor_directory_theme", "", time()-42000);
 
 /*
  ============================================================================================================
@@ -1325,6 +1327,7 @@ if ($_DB_Query_Kernel_Security_Update_Member_Account_Force_Logout) {
 	setcookie("kernel_member_password", "", time()-42000);
 	setcookie("kernel_member_security_fingerprint", "", time()-42000);
 	setcookie("kernel_member_username", "", time()-42000);
+	setcookie("kernel_visitor_directory_theme", "", time()-42000);
 
 /*
  ============================================================================================================
@@ -1366,6 +1369,7 @@ if ($_GLOBAL_MEMBER_ACCOUNT_LOCK_STATUS > "0") {
 	setcookie("kernel_member_password", "", time()-42000);
 	setcookie("kernel_member_security_fingerprint", "", time()-42000);
 	setcookie("kernel_member_username", "", time()-42000);
+	setcookie("kernel_visitor_directory_theme", "", time()-42000);
 
 /*
  ============================================================================================================
@@ -4050,6 +4054,7 @@ $DB->free($_DB_Query_Kernel_Logout_Remove_Member_Account_Authorized_IP_Address);
 	setcookie("kernel_member_password", "", time()-42000);
 	setcookie("kernel_member_security_fingerprint", "", time()-42000);
 	setcookie("kernel_member_username", "", time()-42000);
+	setcookie("kernel_visitor_directory_theme", "", time()-42000);
 
 /*
  ============================================================================================================
@@ -4624,6 +4629,7 @@ if ($_GLOBAL_MEMBER_IP_ADDRESS_AUTHORIZED != "$_GLOBAL_REMOTE_SERVER_ADDRESS") {
 	setcookie("kernel_member_password", "", time()-42000);
 	setcookie("kernel_member_security_fingerprint", "", time()-42000);
 	setcookie("kernel_member_username", "", time()-42000);
+	setcookie("kernel_visitor_directory_theme", "", time()-42000);
 
 	header("Location: ?$_INTERNAL_APPLICATION_MODULE_MEMBER=Login&Authorization=IP_Address");
 	exit;
