@@ -1,70 +1,70 @@
-Network Tools
-sudo pacman -S net-tools wireshark-cli wireshark-qt traceroute whois tcpdump aircrack-ng macchanger nmap openvpn dnscrypt-proxy i2pd tor
+- NETWORK TOOLS
+sudo pacman -S net-tools wireshark-cli wireshark-qt traceroute whois tcpdump aircrack-ng macchanger nmap openvpn dnscrypt-proxy
 
-Android Tools
+- GOOGLE ANDROID OPEN SOURCE SOFTWARE APPLICATIONS
 sudo pacman -S android-tools heimdall
 
-Video Game Emulators
-sudo pacman -S pcsx2 ppsspp zsnes dolphin-emu gens-gs mupen64plus snes9x mame scummvm
+- VIDEO GAME CONSOLE EMULATION APPLICATIONS
+sudo pacman -S ppsspp zsnes dolphin-emu mupen64plus snes9x mame scummvm
 
-Video Game Platforms
-sudo pacman -S steam-native steam-manjaro
+- VIDEO GAME PLATFORM APPLICATIONS
+sudo pacman -S steam
 
-Wine
+- MICROSOFT WINDOWS EMULATION APPLICATIONS
 sudo pacman -S wine wine-mono wine-gecko wine-staging
 
-Virtual Machines
+- VIRTUAL MACHINE APPLICATIONS
 sudo pacman -S virtualbox
 
-Python
-sudo pacman -S python-beautifulsoup4 python2-setuptools python-setuptools
+- PYTHON SCRIPTING LANGUAGE APPLICATIONS
+sudo pacman -S python-beautifulsoup4 python-setuptools
 
-Penetration Testing
+- PENETRATION TESTING APPLICATIONS
 sudo pacman -S metasploit sqlmap
 
-Communications
+- COMMUNICATIONS APPLICATIONS
 sudo pacman -S keybase telegram-desktop discord irssi weechat pidgin pidgin-otr
 
-Media Players
+- MEDIA PLAYER APPLICATIONS
 sudo pacman -S kodi vlc cmus
 
-Web Browsers
+- WEB BROWSER APPLICATIONS
 sudo pacman -S chromium firefox
 
-Web Camera
+- WEB CAMERA PROCESSING APPLICATIONS
 sudo pacman -S cheese kamoso
 
-Text Editors
+- TEXT PROCESSING APPLICATIONS
 sudo pacman -S mousepad notepadqq
 
-GIT
+- GIT APPLICATIONS
 sudo pacman -S git
 
-Password Managers
+- PASSWORD MANAGEMENT APPLICATIONS
 sudo pacman -S keepass
 
-Video Editing
-sudo pacman -S simplescreenrecorder openshot kdenlive
+- VIDEO EDITING APPLICATIONS
+sudo pacman -S openshot kdenlive
 
-Image Editing
+- IMAGE PROCESSING APPLICATIONS
 sudo pacman -S gimp krita digikam
 
-Audio Editing
+- AUDIO PROCESSING APPLICATIONS
 sudo pacman -S audacity
 
-Torrent Applications
+- TORRENT APPLICATIONS
 sudo pacman -S qbittorrent
 
-Office
+- OFFICE PROCESSING APPLICATIONS
 sudo pacman -S libreoffice
 
-OpenPGP Tools
+- OPENPGP APPLICATIONS
 sudo pacman -S seahorse
 
-Encryption Tools
+- ENCRYPTION APPLICATIONS
 sudo pacman -S veracrypt
 
-FireFox Add-Ons
+- MOZILLA FIREFOX WEB BROWSER ADD-ONS
 AdBlocker
 NoScript
 HTTPS Everywhere
@@ -73,6 +73,7 @@ Ghostery
 DarkReading
 FireFox Dark Theme
 
-All Software
-
-sudo pacman -S android-tools heimdall pcsx2 ppsspp zsnes dolphin-emu gens-gs mupen64plus snes9x mame scummvm steam-native steam-manjaro wine wine-mono wine-gecko wine-staging python-beautifulsoup4 python2-setuptools metasploit sqlmap keybase telegram-desktop discord irssi weechat pidgin pidgin-otr kodi vlc cmus 
+- ALL SOFTWARE
+sudo pacman -S net-tools wireshark-cli wireshark-qt traceroute whois tcpdump aircrack-ng macchanger nmap openvpn dnscrypt-proxy android-tools heimdall ppsspp zsnes dolphin-emu mupen64plus snes9x mame scummvm
+steam wine wine-mono wine-gecko wine-staging virtualbox python-beautifulsoup4 python-setuptools metasploit sqlmap keybase telegram-desktop discord irssi weechat pidgin pidgin-otr kodi vlc cmus chromium firefox
+cheese kamoso mousepad notepadqq git keepass openshot kdenlive gimp krita digikam audacity qbittorrent libreoffice seahorse veracrypt
