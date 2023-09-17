@@ -230,13 +230,13 @@ echo ("
 <B>Recommended :: Hardware :: Military Specification :: Home / Business :: Cloud Server</B><BR>
 --------------------------------------------------<BR>
 * Cloud Server :: Hardware Component :: Case ::<BR>
-* Cloud Server :: Hardware Component :: Power Supply ::<BR>
+* Cloud Server :: Hardware Component :: Power Supply Unit ::<BR>
 * Cloud Server :: Hardware Component :: Mainboard ::<BR>
-* Cloud Server :: Hardware Component :: Processor ::<BR>
-* Cloud Server :: Hardware Component :: Graphics Processor ::<BR>
-* Cloud Server :: Hardware Component :: Memory ::<BR>
+* Cloud Server :: Hardware Component :: Central Processing Unit ::<BR>
+* Cloud Server :: Hardware Component :: Graphics Processing Unit ::<BR>
+* Cloud Server :: Hardware Component :: Physical Memory Module ::<BR>
 * Cloud Server :: Hardware Component :: Digital Storage Drive ::<BR>
-* Cloud Server :: Hardware Component :: Optical Drive ::<BR>
+* Cloud Server :: Hardware Component :: Optical Drive Unit ::<BR>
 * Cloud Server :: Hardware Component :: Wireless Local-Area-Network Unit :: <BR>
 * Cloud Server :: Hardware Component :: Wireless Wide-Area-Network Unit :: <BR><BR>
 
