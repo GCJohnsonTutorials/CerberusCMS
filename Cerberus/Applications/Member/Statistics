@@ -187,9 +187,9 @@ echo ("
 												*&nbsp;Plug-In :: Text-Editor ( BB ) Code Plug-In :: Directory: $_GLOBAL_SYSTEM_PLUGIN_TEXT_EDITOR_DIRECTORY<BR>
 												*&nbsp;Plug-In :: Text-Editor ( BB ) Code Plug-In :: Status: $_GLOBAL_SYSTEM_PLUGIN_TEXT_EDITOR_STATUS<BR><BR>
 
-											<B>Terminal and Console Plug-Ins</B><BR><BR>
+											<B>System :: Settings :: Plug-Ins :: Terminal and Console</B><BR><BR>
 
-											<B>Graphical Plug-Ins</B><BR>
+											<B>System :: Settings :: Plug-Ins :: Graphical</B><BR>
 												*&nbsp;Plug-In :: Smileys and Emojis :: Directory: $_GLOBAL_SYSTEM_SMILEYS_DIRECTORY<BR><BR>
 
 											<B>System Security Settings</B><HR>
