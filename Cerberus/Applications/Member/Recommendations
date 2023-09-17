@@ -66,7 +66,7 @@
 echo ("
 <B>Recommended :: Device Firmware, Operating Systems and Software</B><BR>
 --------------------------------------------------<BR>
-<B>Mobile Device :: Operating System</B><BR>
+<B>Recommended :: Military Specification :: Mobile Device :: Smart Phone :: Information Security Hardened :: Custom Operating System</B><BR>
 * <A HREF=\"https://www.Havoc-OS.com/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Havoc Operating System ::\" TARGET=\"_NEW\">Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: HavocOS</A><BR>
 <A HREF=\"https://www.YouTube.com/watch?v=UqtpHxiM5Co\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official HavocOS YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR>
 * <A HREF=\"https://wiki.LineageOS.org/devices/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lineage Operating System ::\" TARGET=\"_NEW\">Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: LineageOS</A><BR>
@@ -74,7 +74,7 @@ echo ("
 * <A HREF=\"https://www.Plasma-Mobile.org/get/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: KDE Plasma Linux Mobile ::\" TARGET=\"_NEW\">Personal :: Mobile Cell Device :: Digital Information Security Hardened :: Operating System :: KDE Plasma Linux Mobile</A><BR>
 <A HREF=\"https://www.YouTube.com/watch?v=bBiQgjrBQAk\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official KDE Plasma Mobile YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR><BR>
 
-<B>Mobile Device :: Firmware</B><BR>
+<B>Recommended :: Military Specification :: Mobile Device :: Smart Phone :: Information Security Hardened :: Custom Firmware</B><BR>
 * Personal :: Mobile Cell Device :: Component :: Firmware :: Modem :: FireModem<BR>
 * Personal :: Mobile Cell Device :: Component :: Firmware :: SoC :: <BR>
 * Personal :: Mobile Cell Device :: Component :: Firmware :: eMMC ::<BR>
@@ -84,26 +84,26 @@ echo ("
 * Personal :: Mobile Cell Device :: Component :: Firmware :: CPU :: <BR>
 * Personal :: Mobile Cell Device :: Component :: Firmware :: GPU :: <BR><BR>
 
-<B>Mobile Device :: Laptop / NoteBook :: Operating System</B><BR>
+<B>Recommended :: Military Specification :: Mobile Device :: Laptop / NoteBook :: Information Security Hardened :: Custom Operating System</B><BR>
 * <A HREF=\"https://wiki.ArchLinux.org/title/Arch-based_distributions\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Arch-Linux Operating System ::\" TARGET=\"_NEW\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Operating System :: Arch-Linux</A><BR>
 <A HREF=\"https://www.YouTube.com/watch?v=fqoaOubtABs\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official Arch-Linux YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR>
 * <A HREF=\"https://www.FreeBSD.org/where/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: FreeBSD Operating System ::\" TARGET=\"_NEW\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Operating System :: Free-BSD</A><BR>
 <A HREF=\"https://www.YouTube.com/watch?v=0qq3H8pflU0\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official Arch-Linux YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR><BR>
 
-<B>Mobile Device :: Laptop / NoteBook :: Firmware</B><BR>
+<B>Recommended :: Military Specification :: Mobile Device :: Laptop / NoteBook :: Information Security Hardened :: Custom Firmware</B><BR>
 * Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Firmware :: BIOS :: Linux-BIOS<BR>
 * <A HREF=\"https://www.CoreBoot.org/status/board-status.html\" TITLE=\":: Open & Display :: The Official Web Server :: For :: CoreBoot Device Firmware ::\" TARGET=\"_NEW\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Firmware :: BIOS :: CoreBoot</A><BR>
 * <A HREF=\"https://www.LibreBoot.org/docs/hardware/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: LibreBoot Device Firmware ::\" TARGET=\"_NEW\">Personal :: Laptop / NoteBook :: Digital Information Security Hardened :: Firmware :: BIOS :: LibreBoot</A><BR><BR>
 
-<B>Networking :: Custom Built Router :: Custom Operating System</B><BR>
+<B>Recommended :: Military Specification :: Networking :: Information Security Hardened :: Custom Operating System</B><BR>
 * <A HREF=\"https://www.BSDRP.net/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Free-BSD BSDRP ::\" TARGET=\"_NEW\">Personal :: Home Router :: Digital Information Security Hardened :: Operating System :: Free-BSD :: BSDRP</A><BR><BR>
 
-<B>Networking :: Original Equipment Manufacturer Router :: Custom Firmware</B><BR>
+<B>Recommended :: Military Specification :: Networking :: Information Security Hardened :: Custom Firmware</B><BR>
 * <A HREF=\"https://www.FreshTomato.org/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: FreshTomato Network Router Firmware Project ::\" TARGET=\"_NEW\">Personal :: Network :: Home Router :: Digital Information Security Hardened :: Firmware :: FreshTomato</A><BR><BR>
 
-<B>Recommended :: Military Specification :: Mobile Devices :: Electronic Devices</B><BR>
+<B>Recommended :: Hardwre :: Military Specification :: Mobile Devices :: Laptop / NoteBook</B><BR>
 --------------------------------------------------<BR>
-<B>Mobile Device :: Military Specification :: Laptop / NoteBook</B><BR>
+<B>Recommended :: Hardware :: Military Specification :: Mobile Device :: Laptop / NoteBook</B><BR>
 * <A HREF=\"https://www.Lenovo.com/il/en/laptops/thinkpad/t-series/ThinkPad-T440p/p/22TP2TT440P\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lenovo ThinkPad ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Laptop / NoteBook :: Lenovo :: ThinkPad :: Model T440P</A><BR>
 * <A HREF=\"https://www.Samsung.com/us/computing/galaxy-books/all-galaxy-books/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Samsung GalaxyBook ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Laptop / NoteBook :: Samsung :: GalaxyBook :: Model 3</A><BR>
 * <A HREF=\"https://us.MSI.com/Laptops/Products#?tag=Titan-GT-Series\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Micro-Star International GT & SlimBook ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Laptop / NoteBook :: MSI :: Titan :: Model GT & SlimBook</A><BR>
@@ -111,7 +111,7 @@ echo ("
 
 <A HREF=\"./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/Image/Recommendations/Lenovo_ThinkPad_Housing_Aluminium.png\"><IMG SRC=\"./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/Image/Recommendations/Lenovo_ThinkPad_Housing_Aluminium.png\" TITLE=\":: Custom Fabricated Aluminium Metal Laptop / NoteBook Housing ::\" WIDTH=\"100\" HEIGHT=\"100\"></A><BR><BR>
 
-<B>Mobile Device :: Military Specification :: Smart Phone</B><BR>
+<B>Recommended :: Hardware :: Military Specification :: Mobile Device :: Smart Phone</B><BR>
 * <A HREF=\"https://store.Google.com/us/config/pixel_6a?hl=en-US\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Google Pixel Mobile Cell Phone Devices ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Cell Phone :: Internationally Unlocked :: Google :: Pixel :: 6A</A><BR>
 * <A HREF=\"https://www.Lenovo.com/us/en/p/phones/motorola-smartphones/thinkphone/thinkphone-by-motorola/paxm0000us\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lenovo ThinkPhone Mobile Cell Phone Devices ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Cell Phone :: Internationally Unlocked :: Lenovo :: ThinkPhone :: Model A9</A><BR>
 <A HREF=\"https://www.YouTube.com/watch?v=-bh5LOnokU4\" TITLE=\":: Open & Display :: The Official Web Server :: For :: The Official Lenovo ThinkPhone YouTube Channel ::\" TARGET=\"_NEW\">^YouTube Video</A><BR>
@@ -121,29 +121,29 @@ echo ("
 
 <A HREF=\"./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/Image/Recommendations/Mobile_Device_Case_Aluminium.png\"><IMG SRC=\"./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/Image/Recommendations/Mobile_Device_Case_Aluminium.png\" TITLE=\":: Custom Fabricated Aluminium Metal Case With Corning Gorilla Glass and Titanium Reversable OR Optional Titanium Non-Reversable Screws ::\" WIDTH=\"100\" HEIGHT=\"100\"></A><BR><BR>
 
-<B>Mobile Device :: Military Specification :: Smart Watch</B><BR>
+<B>Recommended :: Hardware :: Military Specification :: Mobile Device :: Smart Watch</B><BR>
 * <A HREF=\"https://store.Google.com/product/google_pixel_watch?hl=en-US\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Google Pixel Smart Watch ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Smart Watch :: Google :: Pixel :: Model 2022</A><BR>
 * <A HREF=\"https://www.Amazon.com/-/en/Lenovo-Smartwatch-Global-Version-Black/dp/B08B34Q58H\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lenovo Smart Watch ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Smart Watch :: Lenovo :: Model S</A><BR>
 * <A HREF=\"https://www.Samsung.com/us/watches/galaxy-watch/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Samsung Galaxy Smart Watch ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Smart Watch :: Samsung :: Galaxy :: Model 5</A><BR><BR>
 
-<B>Mobile Device :: Military Specifiaction :: Smart Glasses</B><BR>
+<B>Recommended :: Hardware :: Military Specification :: Mobile Device :: Smart Glasses</B><BR>
 * <A HREF=\"https://www.Lenovo.com/us/en/thinkrealitya3/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lenovo Smart Glasses ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Smart Glasses :: Lenovo :: Think Reality :: Model A3</A><BR>
 * <A HREF=\"https://www.Ray-Ban.com/usa/ray-ban-stories\" TITLE=\":: Open & Display :: The Official Web Server :: For :: RayBan Smart Glasses ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Smart Glasses :: Ray-Ban :: Stories :: Model WayFarer</A><BR>
 * Personal :: Mobile Device :: Smart Glasses :: Samsung :: Galaxy :: Glasses<BR><BR>
 
-<B>Mobile Device :: Military Specification :: EarPhones / EarBuds</B><BR>
+<B>Recommended :: Hardware :: Military Specification :: Mobile Device :: EarPhones / EarBuds</B><BR>
 * <A HREF=\"https://www.Samsung.com/us/mobile/audio/headphones/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Samsung Galaxy Headphones ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Cable Wired :: Samsung :: Galaxy :: Buds</A><BR>
 * <A HREF=\"https://www.Samsung.com/us/mobile/audio/headphones/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Samsung Galaxy Headphones ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Wireless :: Samsung :: Galaxy :: Buds</A><BR>
 * <A HREF=\"https://www.Skullcandy.com/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: SkullCandy Headphones ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Cable Wired :: SkullCandy</A><BR>
 * <A HREF=\"https://www.Skullcandy.com/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: SkullCandy Headphones ::\" TARGET=\"_NEW\">Personal :: Mobile Device :: Wireless :: SkullCandy</A><BR><BR>
 
-<B>Networking :: Home Router</B><BR>
+<B>Recommended :: Hardware :: Military Specification :: Networking :: Home Router</B><BR>
 * <A HREF=\"https://www.Asus.com/us/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ac3100/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Asus RT Routers ::\" TARGET=\"_NEW\">Personal :: Home Router :: ASUS :: RT :: Model AC3100</A><BR>
 * <A HREF=\"https://www.Lenovo.com/us/en/dc/accessories-and-software/wireless-and-networking/wireless-router\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lenovo Routers ::\" TARGET=\"_NEW\">Personal :: Home Router :: Lenovo ::</A><BR>
 * <A HREF=\"https://www.Samsung.com/us/smartthings/\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Samsung Routers ::\" TARGET=\"_NEW\">Personal :: Home Router :: Samsung :: Model AC2600</A><BR>
 * Personal :: Home Router :: Custom Built<BR><BR>
 
-<B>Recommended :: Hardware :: Mobile Device :: Laptop :: Lenovo :: T :: 440P :: Upgrades</B><BR>
+<B>Recommended :: Hardware :: Military Specification :: Mobile Device :: Laptop :: Lenovo :: T :: 440P :: Upgrades</B><BR>
 --------------------------------------------------<BR>
 * <A HREF=\"https://www.JMPForming.com/custom-metal-fabricators-california.htm\" TITLE=\":: Open & Display :: The Official Web Server :: For :: JMP Forming Custom Aluminium Fabrication ::\" TARGET=\"_NEW\">Laptop / NoteBook :: Hardware Component :: Case / Housing :: Custom Fabrication Aluminium Lenovo T440P Housing</A><BR>
 * <A HREF=\"https://www.Lenovo.com/us/en/dc/accessories-and-software/chargers-and-batteries/batteries?\" TITLE=\":: Open & Display :: The Official Web Server :: For :: Lenovo Extended Laptop / NoteBook Batteries ::\" TARGET=\"_NEW\">Laptop / NoteBook :: Hardware Component :: Power Supply Unit :: Extended 12-Cell Battery, 50,000 MAh</A><BR>
@@ -157,7 +157,7 @@ echo ("
 * Laptop / NoteBook :: Hardware Component :: Wireless Wide-Area-Network Unit :: <BR>
 * Laptop / NoteBook :: Hardware Component :: LED Backlit Chicklet Keyboard ::<BR><BR>
 
-<B>Recommended :: Hardware :: Mobile Device :: Laptop :: Samsung ::  GalaxyBook :: 3 :: Upgrades</B><BR>
+<B>Recommended :: Hardware :: Military Specification :: Mobile Device :: Laptop :: Samsung ::  GalaxyBook :: 3 :: Upgrades</B><BR>
 --------------------------------------------------<BR>
 * Laptop / NoteBook :: Hardware Component :: Case ::<BR>
 * Laptop / NoteBook :: Hardware Component :: Power Supply ::<BR>
@@ -171,7 +171,7 @@ echo ("
 * Laptop / NoteBook :: Hardware Component :: Wireless Wide-Area-Network Unit :: <BR>
 * Laptop / NoteBook :: Hardware Component :: LED Backlit Chicklet Keyboard ::<BR><BR>
 
-<B>Recommended :: Hardware :: Mobile Device :: Laptop :: Lenovo :: MSI :: GT / SlimBook :: Upgrades</B><BR>
+<B>Recommended :: Hardware :: Military Specification :: Mobile Device :: Laptop :: Lenovo :: MSI :: GT / SlimBook :: Upgrades</B><BR>
 --------------------------------------------------<BR>
 * Laptop / NoteBook :: Hardware Component :: Case ::<BR>
 * Laptop / NoteBook  :: Hardware Component :: Power Supply ::<BR>
@@ -185,7 +185,7 @@ echo ("
 * Laptop / NoteBook :: Hardware Component :: Wireless Wide-Area-Network Unit :: <BR>
 * Laptop / NoteBook :: Hardware Component :: LED Backlit Chicklet Keyboard ::<BR><BR>
 
-<B>Recommended :: Hardware :: Home / Business :: Desktop</B><BR>
+<B>Recommended :: Hardware :: Military Specification :: Home / Business :: Desktop</B><BR>
 --------------------------------------------------<BR>
 * Desktop :: Hardware Component :: Case ::<BR>
 * Desktop :: Hardware Component :: Power Supply ::<BR>
@@ -199,7 +199,7 @@ echo ("
 * Desktop :: Hardware Component :: Wireless Wide-Area-Network Unit :: <BR>
 * Desktop :: Hardware Component :: LED Backlit Mechanical Keyboard ::<BR><BR>
 
-<B>Recommended :: Hardware :: Home / Business :: Media Center</B><BR>
+<B>Recommended :: Hardware :: Military Specification :: Home / Business :: Media Center</B><BR>
 --------------------------------------------------<BR>
 * Media Center :: Hardware Component :: Case ::<BR>
 * Media Center :: Hardware Component :: Power Supply ::<BR>
@@ -213,7 +213,7 @@ echo ("
 * Media Center :: Hardware Component :: Wireless Wide-Area-Network Unit :: <BR>
 * Media Center :: Hardware Component :: LED Backlit Mechanical Keyboard ::<BR><BR>
 
-<B>Recommended :: Hardware :: Home / Business :: Web Server</B><BR>
+<B>Recommended :: Hardware :: Military Specification :: Home / Business :: Web Server</B><BR>
 --------------------------------------------------<BR>
 * Web Server :: Hardware Component :: Case ::<BR>
 * Web Server :: Hardware Component :: Power Supply ::<BR>
@@ -227,7 +227,7 @@ echo ("
 * Web Server :: Hardware Component :: Wireless Local-Area-Network Unit :: <BR>
 * Web Server :: Hardware Component :: Wireless Wide-Area-Network Unit :: <BR><BR>
 
-<B>Recommended :: Hardware :: Home / Business :: Cloud Server</B><BR>
+<B>Recommended :: Hardware :: Military Specification :: Home / Business :: Cloud Server</B><BR>
 --------------------------------------------------<BR>
 * Cloud Server :: Hardware Component :: Case ::<BR>
 * Cloud Server :: Hardware Component :: Power Supply ::<BR>
