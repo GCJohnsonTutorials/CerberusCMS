@@ -4,7 +4,7 @@
 <B>This Free and Open Source Software Project is protected by copyright laws</B><HR>
 This CerberusCMS Theme was created by Gary Christopher Johnson<BR><BR>
 
-<IMG SRC="./Theme/2008_Cerberus_Blue/Image/Legal/Author_G.C._Johnson.jpg" WIDTH="300" HEIGHT="400"></IMG><BR><BR>
+<IMG SRC="./Theme/2022_TinkeSoftware_Grey/Image/Legal/Author_G.C._Johnson.jpg" WIDTH="300" HEIGHT="400"></IMG><BR><BR>
 
 <B>Theme Credit</B><BR>
 &middot; Theme Image Fills were taken from DBZ Wallpaper by 'Unknown'<BR>
