@@ -2342,6 +2342,7 @@ echo ("
 															<OPTION VALUE=\"smsmyboostmobile.com\">USA :: Boost Mobile</OPTION>
 															<OPTION VALUE=\"sms.cricketwireless.net\">USA :: Cricket</OPTION>
 															<OPTION VALUE=\"mymetropcs.com\">USA :: Metro Personal Communications Service</OPTION>
+															<OPTION VALUE=\"smtext.com\">USA :: Simple Mobile</OPTION>
 															<OPTION VALUE=\"tmomail.net\">USA :: T-Mobile</OPTION>
 															<OPTION VALUE=\"email.ussc.net\">USA :: U.S. Cellular</OPTION>
 															<OPTION VALUE=\"vmobil.com\">USA :: Virgin Mobile</OPTION>
@@ -2406,6 +2407,7 @@ echo ("
 															<OPTION VALUE=\"smsmyboostmobile.com\">USA :: Boost Mobile</OPTION>
 															<OPTION VALUE=\"sms.cricketwireless.net\">USA :: Cricket</OPTION>
 															<OPTION VALUE=\"mymetropcs.com\">USA :: Metro Personal Communications Service</OPTION>
+															<OPTION VALUE=\"smtext.com\">USA :: Simple Mobile</OPTION>
 															<OPTION VALUE=\"tmomail.net\">USA :: T-Mobile</OPTION>
 															<OPTION VALUE=\"email.ussc.net\">USA :: U.S. Cellular</OPTION>
 															<OPTION VALUE=\"vmobil.com\">USA :: Virgin Mobile</OPTION>
