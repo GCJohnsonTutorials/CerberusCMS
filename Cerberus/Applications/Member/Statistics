@@ -205,12 +205,15 @@ echo ("
 
 											<B>Cache-Circumvention :: Random Generated Strings</B><BR>
 												*&nbsp;=> Secure HASH Algorithm, 512 :: Hyper-Text Reference<BR>
-												$_GLOBAL_SECURITY_RANDOM_STRING_GENERATION_CACHE_CIRCUMVENTION<BR>
+												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION<BR>
 												*&nbsp;=> Secure HASH Algorithm, 512 :: Audio<BR>
+												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING_GENERATION<BR>
 												*&nbsp;=> Secure HASH Algorithm, 512 :: Document<BR>
+												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_GENERATION<BR>
 												*&nbsp;=> Secure HASH Algorithm, 512 :: Image<BR>
-												$_GLOBAL_SYSTEM_SECURITY_IMAGE_RANDOM_STRING_GENERATION_CACHE_CIRCUMVENTION<BR>
-												*&nbsp;=> Secure HASH Algorithm, 512 :: Video<BR><BR>
+												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION<BR>
+												*&nbsp;=> Secure HASH Algorithm, 512 :: Video<BR>
+												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_GENERATION<BR><BR>
 
 											<B>System-Wide Social Interaction Information & Statistics</B><HR>
 
