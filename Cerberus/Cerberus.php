@@ -1399,66 +1399,66 @@ if ($_GLOBAL_MEMBER_ACCOUNT_LOCK_STATUS > "0") {
 /*
  ============================================================================================================
  +
- + Internal Security :: MITM :: Server Cache :: Circumvention :: Cached Web Pages
+ + Internal Security :: MITM :: Server Cache :: Circumvention :: Hyper-Text Reference :: Uniform-Resource-Location
  +
  ============================================================================================================
 */
 
 /*
  ============================================================================================================
- + Cache Web-Page Data :: Circumvention :: Variables :: Random Generator Length Number
+ + Cache HTR :: Circumvention :: Variables :: Random Generator Length Number
  ============================================================================================================
 */
 
-$_GLOBAL_SYSTEM_SECURITY_RANDOM_STRING_GENERATOR_LENGTH_NUMBER					= 100;
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATOR_LENGTH_NUMBER 		= 100;
 
 /*
  ============================================================================================================
- + Cache Web-Page Data :: Circumvention :: Random String Function
+ + Cache HTR :: Circumvention :: Random String Function
  ============================================================================================================
 */
 
-function getRandomString($_GLOBAL_SYSTEM_SECURITY_RANDOM_STRING_GENERATOR_LENGTH_NUMBER) {
+function getRandomStringHTR($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATOR_LENGTH_NUMBER) {
 
 /*
  ============================================================================================================
- + Cache Web-Page Data :: Circumvention :: Random String Variables
+ + Cache HTR :: Circumvention :: Random String Variables
  ============================================================================================================
 */
 
-$_GLOBAL_SYSTEM_SECURITY_RANDOM_STRING_GENERATOR_CHARACTERS					= '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-$_GLOBAL_SYSTEM_SECURITY_RANDOM_STRING								= '';
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATOR_CHARACTERS		= '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING					= '';
 
 /*
  ============================================================================================================
- + Cache Web-Page Data :: Circumvention :: FOR: Variable < 0 Variable Increment
+ + Cache HTR :: Circumvention :: FOR: Variable < 0 Variable Increment
  ============================================================================================================
 */
 
-for ($_GLOBAL_SYSTEM_SECURITY_RANDOM_STRING_INVISIBLE = 0; $_GLOBAL_SYSTEM_SECURITY_RANDOM_STRING_INVISIBLE < $_GLOBAL_SYSTEM_SECURITY_RANDOM_STRING_GENERATOR_LENGTH_NUMBER; $_GLOBAL_SYSTEM_SECURITY_RANDOM_STRING_INVISIBLE++) {
+for ($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_INVISIBLE = 0; $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_INVISIBLE < $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATOR_LENGTH_NUMBER; $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_INVISIBLE++) {
 
 /*
  ============================================================================================================
- + Cache Web-Page Data :: Circumvention :: Randomize Generated Strings
+ + Cache HTR :: Circumvention :: Randomize Generated Strings
  ============================================================================================================
 */
 
-$_GLOBAL_SYSTEM_SECURITY_RANDOM_STRING_INDEX							= rand(0, strlen($_GLOBAL_SYSTEM_SECURITY_RANDOM_STRING_GENERATOR_CHARACTERS) - 1);
-$_GLOBAL_SYSTEM_SECURITY_RANDOM_STRING								.= $_GLOBAL_SYSTEM_SECURITY_RANDOM_STRING_GENERATOR_CHARACTERS[$_GLOBAL_SYSTEM_SECURITY_RANDOM_STRING_INDEX];
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_INDEX						= rand(0, strlen($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATOR_CHARACTERS) - 1);
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING							.= $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATOR_CHARACTERS[$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_INDEX];
 
-} // [ + ] Function: Random Character Generator: Increment Invisible String
+} // [ + ] Function: Random Character Generator :: HTR :: Increment Invisible String
 
-return $_GLOBAL_SYSTEM_SECURITY_RANDOM_STRING;
+return $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING;
 
-} // [ + ] Function: getRandomString
+} // [ + ] Function: getRandomStringHTR
 
 /*
  ============================================================================================================
- + Cache Web-Page Data :: Circumvention :: HASH Algorithm of Randomized Strings
+ + Cache HTR :: Circumvention :: HASH Algorithm of Randomized Strings
  ============================================================================================================
 */
 
-$_GLOBAL_SYSTEM_SECURITY_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH				= hash('sha512',getRandomString($_GLOBAL_SYSTEM_SECURITY_RANDOM_STRING_GENERATOR_LENGTH_NUMBER));
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH			= hash('sha512',getRandomStringHTR($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATOR_LENGTH_NUMBER));
 
 /*
  ============================================================================================================
@@ -1466,27 +1466,171 @@ $_GLOBAL_SYSTEM_SECURITY_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH				= hash('s
  ============================================================================================================
 */
 
-$_GLOBAL_SECURITY_RANDOM_STRING_GENERATION_CACHE_CIRCUMVENTION					= "$_GLOBAL_SYSTEM_SECURITY_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH&amp;CacheCircumvention";
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION					= "$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH&amp;CacheCircumvention";
 
 /*
  ============================================================================================================
  +
- + Internal Security :: MITM :: Server Cache :: Circumvention :: Cached Images
+ + Internal Security :: MITM :: Server Cache :: Circumvention :: Hyper-Text Reference :: Audio
  +
  ============================================================================================================
 */
 
 /*
  ============================================================================================================
- + Cache Images :: Circumvention :: Variables :: Random Generator Length Number
+ + Cache Audio :: Circumvention :: Variables :: Random Generator Length Number
  ============================================================================================================
 */
 
-$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATOR_LENGTH_NUMBER 	= 100;
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING_GENERATOR_LENGTH_NUMBER 		= 100;
 
 /*
  ============================================================================================================
- + Cache Images :: Circumvention :: Random String Function
+ + Cache Audio :: Circumvention :: Random String Function
+ ============================================================================================================
+*/
+
+function getRandomStringAudio($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING_GENERATOR_LENGTH_NUMBER) {
+
+/*
+ ============================================================================================================
+ + Cache Audio :: Circumvention :: Random String Variables
+ ============================================================================================================
+*/
+
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING_GENERATOR_CHARACTERS		= '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING					= '';
+
+/*
+ ============================================================================================================
+ + Cache Audio :: Circumvention :: FOR: Variable < 0 Variable Increment
+ ============================================================================================================
+*/
+
+for ($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING_INVISIBLE = 0; $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING_INVISIBLE < $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING_GENERATOR_LENGTH_NUMBER; $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING_INVISIBLE++) {
+
+/*
+ ============================================================================================================
+ + Cache Audio :: Circumvention :: Randomize Generated Strings
+ ============================================================================================================
+*/
+
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING_INDEX						= rand(0, strlen($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING_GENERATOR_CHARACTERS) - 1);
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING							.= $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING_GENERATOR_CHARACTERS[$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING_INDEX];
+
+} // [ + ] Function: Random Character Generator :: Audio :: Increment Invisible String
+
+return $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING;
+
+} // [ + ] Function: getRandomStringAudio
+
+/*
+ ============================================================================================================
+ + Cache Audio :: Circumvention :: HASH Algorithm of Randomized Strings
+ ============================================================================================================
+*/
+
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH			= hash('sha512',getRandomStringAudio($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING_GENERATOR_LENGTH_NUMBER));
+
+/*
+ ============================================================================================================
+ + Global Security :: Variables :: Uniform Resource Location Addition
+ ============================================================================================================
+*/
+
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING_GENERATION					= "$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH&amp;CacheCircumvention";
+
+/*
+ ============================================================================================================
+ +
+ + Internal Security :: MITM :: Server Cache :: Circumvention :: Hyper-Text Reference :: Document
+ +
+ ============================================================================================================
+*/
+
+/*
+ ============================================================================================================
+ + Cache Document :: Circumvention :: Variables :: Random Generator Length Number
+ ============================================================================================================
+*/
+
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_GENERATOR_LENGTH_NUMBER 		= 100;
+
+/*
+ ============================================================================================================
+ + Cache Document :: Circumvention :: Random String Function
+ ============================================================================================================
+*/
+
+function getRandomStringDocument($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_GENERATOR_LENGTH_NUMBER) {
+
+/*
+ ============================================================================================================
+ + Cache Document :: Circumvention :: Random String Variables
+ ============================================================================================================
+*/
+
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_GENERATOR_CHARACTERS		= '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING					= '';
+
+/*
+ ============================================================================================================
+ + Cache Document :: Circumvention :: FOR: Variable < 0 Variable Increment
+ ============================================================================================================
+*/
+
+for ($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_INVISIBLE = 0; $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_INVISIBLE < $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_GENERATOR_LENGTH_NUMBER; $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_INVISIBLE++) {
+
+/*
+ ============================================================================================================
+ + Cache Document :: Circumvention :: Randomize Generated Strings
+ ============================================================================================================
+*/
+
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_INDEX						= rand(0, strlen($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_GENERATOR_CHARACTERS) - 1);
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING							.= $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_GENERATOR_CHARACTERS[$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_INDEX];
+
+} // [ + ] Function: Random Character Generator :: Document :: Increment Invisible String
+
+return $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING;
+
+} // [ + ] Function: getRandomStringDocument
+
+/*
+ ============================================================================================================
+ + Cache Document :: Circumvention :: HASH Algorithm of Randomized Strings
+ ============================================================================================================
+*/
+
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH			= hash('sha512',getRandomStringDocument($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_GENERATOR_LENGTH_NUMBER));
+
+/*
+ ============================================================================================================
+ + Global Security :: Variables :: Uniform Resource Location Addition
+ ============================================================================================================
+*/
+
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_GENERATION					= "$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH&amp;CacheCircumvention";
+
+/*
+ ============================================================================================================
+ +
+ + Internal Security :: MITM :: Server Cache :: Circumvention :: Hyper-Text Reference :: Image
+ +
+ ============================================================================================================
+*/
+
+/*
+ ============================================================================================================
+ + Cache Image :: Circumvention :: Variables :: Random Generator Length Number
+ ============================================================================================================
+*/
+
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATOR_LENGTH_NUMBER 		= 100;
+
+/*
+ ============================================================================================================
+ + Cache Image :: Circumvention :: Random String Function
  ============================================================================================================
 */
 
@@ -1494,43 +1638,43 @@ function getRandomStringImage($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE
 
 /*
  ============================================================================================================
- + Cache Images :: Circumvention :: Random String Variables
+ + Cache Image :: Circumvention :: Random String Variables
  ============================================================================================================
 */
 
 $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATOR_CHARACTERS		= '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING				= '';
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING					= '';
 
 /*
  ============================================================================================================
- + Cache Images :: Circumvention :: FOR: Variable < 0 Variable Increment
+ + Cache Image :: Circumvention :: FOR: Variable < 0 Variable Increment
  ============================================================================================================
 */
 
-for ($_GLOBAL_SYSTEM_SECURITY_IMAGE_RANDOM_STRING_INVISIBLE = 0; $_GLOBAL_SYSTEM_SECURITY_IMAGE_RANDOM_STRING_INVISIBLE < $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATOR_LENGTH_NUMBER; $_GLOBAL_SYSTEM_SECURITY_IMAGE_RANDOM_STRING_INVISIBLE++) {
+for ($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_INVISIBLE = 0; $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_INVISIBLE < $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATOR_LENGTH_NUMBER; $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_INVISIBLE++) {
 
 /*
  ============================================================================================================
- + Cache Images :: Circumvention :: Randomize Generated Strings
+ + Cache Image :: Circumvention :: Randomize Generated Strings
  ============================================================================================================
 */
 
-$_GLOBAL_SYSTEM_SECURITY_IMAGE_RANDOM_STRING_INDEX						= rand(0, strlen($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATOR_CHARACTERS) - 1);
-$_GLOBAL_SYSTEM_SECURITY_IMAGE_RANDOM_STRING							.= $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATOR_CHARACTERS[$_GLOBAL_SYSTEM_SECURITY_IMAGE_RANDOM_STRING_INDEX];
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_INDEX						= rand(0, strlen($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATOR_CHARACTERS) - 1);
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING							.= $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATOR_CHARACTERS[$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_INDEX];
 
 } // [ + ] Function: Random Character Generator :: Image :: Increment Invisible String
 
-return $_GLOBAL_SYSTEM_SECURITY_IMAGE_RANDOM_STRING;
+return $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING;
 
 } // [ + ] Function: getRandomStringImage
 
 /*
  ============================================================================================================
- + Cache Images :: Circumvention :: HASH Algorithm of Randomized Strings
+ + Cache Image :: Circumvention :: HASH Algorithm of Randomized Strings
  ============================================================================================================
 */
 
-$_GLOBAL_SYSTEM_SECURITY_IMAGE_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH			= hash('sha512',getRandomStringImage($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATOR_LENGTH_NUMBER));
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH			= hash('sha512',getRandomStringImage($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATOR_LENGTH_NUMBER));
 
 /*
  ============================================================================================================
@@ -1538,79 +1682,151 @@ $_GLOBAL_SYSTEM_SECURITY_IMAGE_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH			= ha
  ============================================================================================================
 */
 
-$_GLOBAL_SYSTEM_SECURITY_IMAGE_RANDOM_STRING_GENERATION_CACHE_CIRCUMVENTION			= "$_GLOBAL_SYSTEM_SECURITY_IMAGE_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH&amp;CacheCircumvention";
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION					= "$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH&amp;CacheCircumvention";
 
 /*
  ============================================================================================================
  +
- + Internal Security :: MITM :: Server Cache :: Circumvention :: Cached File Inclusion
+ + Internal Security :: MITM :: Server Cache :: Circumvention :: Hyper-Text Reference :: Video
  +
  ============================================================================================================
 */
 
 /*
  ============================================================================================================
- + MITM :: Server Cache :: Circumvention :: Cached File Inclusion :: Variables :: Random Generator Length Number
+ + Cache Video :: Circumvention :: Variables :: Random Generator Length Number
  ============================================================================================================
 */
 
-$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILE_INCLUSION_RANDOM_STRING_GENERATOR_LENGTH_NUMBER	= 100;
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_GENERATOR_LENGTH_NUMBER 		= 100;
 
 /*
  ============================================================================================================
- + MITM :: Server Cache :: Circumvention :: Cached File Inclusion :: Random String Function
+ + Cache Video :: Circumvention :: Random String Function
  ============================================================================================================
 */
 
-function getRandomStringFileInclusion($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILE_INCLUSION_RANDOM_STRING_GENERATOR_LENGTH_NUMBER) {
+function getRandomStringVideo($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_GENERATOR_LENGTH_NUMBER) {
 
 /*
  ============================================================================================================
- + MITM :: Server Cache :: Circumvention :: Cached File Inclusion :: Random String Variables
+ + Cache Video :: Circumvention :: Random String Variables
  ============================================================================================================
 */
 
-$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILE_INCLUSION_RANDOM_STRING_GENERATOR_CHARACTERS		= '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILE_INCLUSION_RANDOM_STRING				= '';
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_GENERATOR_CHARACTERS		= '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING					= '';
 
 /*
  ============================================================================================================
- + MITM :: Server Cache :: Circumvention :: Cached File Inclusion :: FOR: Variable < 0 Variable Increment
+ + Cache Video :: Circumvention :: FOR: Variable < 0 Variable Increment
  ============================================================================================================
 */
 
-for ($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILE_INCLUSION_RANDOM_STRING_INVISIBLE = 0; $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILE_INCLUSION_RANDOM_STRING_INVISIBLE < $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILE_INCLUSION_RANDOM_STRING_GENERATOR_LENGTH_NUMBER; $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILE_INCLUSION_RANDOM_STRING_INVISIBLE++) {
+for ($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_INVISIBLE = 0; $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_INVISIBLE < $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_GENERATOR_LENGTH_NUMBER; $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_INVISIBLE++) {
 
 /*
  ============================================================================================================
- + MITM :: Server Cache :: Circumvention :: Cached File Inclusion :: Randomize Generated Strings
+ + Cache Video :: Circumvention :: Randomize Generated Strings
  ============================================================================================================
 */
 
-$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILE_INCLUSION_RANDOM_STRING_INDEX				= rand(0, strlen($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILE_INCLUSION_RANDOM_STRING_GENERATOR_CHARACTERS) - 1);
-$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILE_INCLUSION_RANDOM_STRING				.= $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILE_INCLUSION_RANDOM_STRING_GENERATOR_CHARACTERS[$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILE_INCLUSION_RANDOM_STRING_INDEX];
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_INDEX						= rand(0, strlen($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_GENERATOR_CHARACTERS) - 1);
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING							.= $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_GENERATOR_CHARACTERS[$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_INDEX];
 
-} // [ + ] Function: Random Character Generator :: Image :: Increment Invisible String
+} // [ + ] Function: Random Character Generator :: Video :: Increment Invisible String
 
-return $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILE_INCLUSION_RANDOM_STRING;
+return $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING;
+
+} // [ + ] Function: getRandomStringVideo
+
+/*
+ ============================================================================================================
+ + Cache Video :: Circumvention :: HASH Algorithm of Randomized Strings
+ ============================================================================================================
+*/
+
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH			= hash('sha512',getRandomStringVideo($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_GENERATOR_LENGTH_NUMBER));
+
+/*
+ ============================================================================================================
+ + Global Security :: Variables :: Uniform Resource Location Addition
+ ============================================================================================================
+*/
+
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_GENERATION					= "$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH&amp;CacheCircumvention";
+
+/*
+ ============================================================================================================
+ +
+ + Internal Security :: MITM :: Server Cache :: Circumvention :: Hyper-Text Reference :: File Inclusion
+ +
+ ============================================================================================================
+*/
+
+/*
+ ============================================================================================================
+ + Cache File Inclusion :: Circumvention :: Variables :: Random Generator Length Number
+ ============================================================================================================
+*/
+
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_GENERATOR_LENGTH_NUMBER 		= 100;
+
+/*
+ ============================================================================================================
+ + Cache File Inclusion :: Circumvention :: Random String Function
+ ============================================================================================================
+*/
+
+function getRandomStringFileInclusion($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_GENERATOR_LENGTH_NUMBER) {
+
+/*
+ ============================================================================================================
+ + Cache File Inclusion :: Circumvention :: Random String Variables
+ ============================================================================================================
+*/
+
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_GENERATOR_CHARACTERS		= '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING					= '';
+
+/*
+ ============================================================================================================
+ + Cache File Inclusion :: Circumvention :: FOR: Variable < 0 Variable Increment
+ ============================================================================================================
+*/
+
+for ($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_INVISIBLE = 0; $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_INVISIBLE < $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_GENERATOR_LENGTH_NUMBER; $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_INVISIBLE++) {
+
+/*
+ ============================================================================================================
+ + Cache File Inclusion :: Circumvention :: Randomize Generated Strings
+ ============================================================================================================
+*/
+
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_INDEX						= rand(0, strlen($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_GENERATOR_CHARACTERS) - 1);
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING							.= $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_GENERATOR_CHARACTERS[$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_INDEX];
+
+} // [ + ] Function: Random Character Generator :: File Inclusion :: Increment Invisible String
+
+return $_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING;
 
 } // [ + ] Function: getRandomStringFileInclusion
 
 /*
  ============================================================================================================
- + MITM :: Server Cache :: Circumvention :: Cached File Inclusion :: HASH Algorithm of Randomized Strings
+ + Cache File Inclusion :: Circumvention :: HASH Algorithm of Randomized Strings
  ============================================================================================================
 */
 
-$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILE_INCLUSION_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH	= hash('sha512',getRandomStringImage($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILE_INCLUSION_RANDOM_STRING_GENERATOR_LENGTH_NUMBER));
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH			= hash('sha512',getRandomStringFileInclusion($_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_GENERATOR_LENGTH_NUMBER));
 
 /*
  ============================================================================================================
- + MITM :: Server Cache :: Circumvention :: Cached File Inclusion :: Uniform Resource Location Addition
+ + Global Security :: Variables :: Uniform Resource Location Addition
  ============================================================================================================
 */
 
-$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILE_INCLUSION_RANDOM_STRING_GENERATION_CACHE_CIRCUMVENTION = "$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILE_INCLUSION_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH&amp;CacheCircumvention";
+$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_GENERATION					= "$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH&amp;CacheCircumvention";
 
 /*
  ============================================================================================================
