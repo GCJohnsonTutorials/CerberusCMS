@@ -198,7 +198,7 @@ echo ("
 													<INPUT TYPE=\"submit\" VALUE=\"Login\">
 											</FORM>
 											<HR>
-											<CENTER>[ <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Login\" TITLE=\":: Extensive Login Options ::\">Options</A> ]</CENTER>
+											<CENTER>[ <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Login&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Extensive Login Options ::\">Options</A> ]</CENTER>
 ");
 
 } // [ + ] IF: Registered Member Account :: Is Not Logged-In :: Display :: Registered Member Account :: Login Input Form
