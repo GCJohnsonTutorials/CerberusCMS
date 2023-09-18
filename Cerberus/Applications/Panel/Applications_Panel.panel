@@ -62,7 +62,7 @@ while ($_Application_Module_Panel_Application_Links_DB_Query_SELECT_APPLICATION_
 $_Application_Module_Panel_Application_Links_LIST_APPLICATION_LINK_NAME			= $_Application_Module_Panel_Application_Links_DB_Query_SELECT_APPLICATION_LINKS_Fetch_Array['application_link_name'];
 $_Application_Module_Panel_Application_Links_LIST_APPLICATION_LINK_URL			= $_Application_Module_Panel_Application_Links_DB_Query_SELECT_APPLICATION_LINKS_Fetch_Array['application_link_url'];
 
-											echo ("<BIG><B>&middot;</B></BIG>&nbsp;<A HREF=\"$_Application_Module_Panel_Application_Links_LIST_APPLICATION_LINK_URL&amp;$_GLOBAL_SECURITY_RANDOM_STRING_GENERATION_CACHE_CIRCUMVENTION\" TITLE=\":: Open & Display The Application Module :: $_Application_Module_Panel_Application_Links_LIST_APPLICATION_LINK_NAME ::\">$_Application_Module_Panel_Application_Links_LIST_APPLICATION_LINK_NAME</A><BR>");
+											echo ("<BIG><B>&middot;</B></BIG>&nbsp;<A HREF=\"$_Application_Module_Panel_Application_Links_LIST_APPLICATION_LINK_URL&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Application Module :: $_Application_Module_Panel_Application_Links_LIST_APPLICATION_LINK_NAME ::\">$_Application_Module_Panel_Application_Links_LIST_APPLICATION_LINK_NAME</A><BR>");
 
 } // [ + ] WHILE: Retrieving Link Entries From Database Server
 
