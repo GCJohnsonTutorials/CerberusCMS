@@ -213,7 +213,9 @@ echo ("
 												*&nbsp;=> Secure HASH Algorithm, 512 :: Image<BR>
 												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION<BR>
 												*&nbsp;=> Secure HASH Algorithm, 512 :: Video<BR>
-												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_GENERATION<BR><BR>
+												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_GENERATION<BR>
+												*&nbsp;=> Secure HASH Algorithm, 512 :: Internal File Inclusion<BR>
+												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_GENERATION<BR><BR>
 
 											<B>System-Wide Social Interaction Information & Statistics</B><HR>
 
