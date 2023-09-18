@@ -89,7 +89,7 @@ echo ("
 													<CENTER>
 														<TABLE WIDTH=\"100%\" BORDER=\"0\" CELLPADDING=\"0\" CELLSPACING=\"0\">
 															<TR>
-																<TD WIDTH=\"33%\" BORDER=\"0\">Non-Activated Member Account: <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Administration_Robot_Monitor_LIST_MEMBER_USERNAME\" TITLE=\":: Open & Display The Member Account Profile For :: $_Application_Module_Administration_Robot_Monitor_LIST_MEMBER_USERNAME\">$_Application_Module_Administration_Robot_Monitor_LIST_MEMBER_USERNAME</A> - [ <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Robot_Monitor&amp;DeleteID&#61;$_Application_Module_Administration_Robot_Monitor_LIST_MEMBER_ID\" TITLE=\":: Delete The Member Account :: $_Application_Module_Administration_Robot_Monitor_LIST_MEMBER_USERNAME\">Delete</A> ]</TD>
+																<TD WIDTH=\"33%\" BORDER=\"0\">Non-Activated Member Account: <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Administration_Robot_Monitor_LIST_MEMBER_USERNAME&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Member Account Profile For :: $_Application_Module_Administration_Robot_Monitor_LIST_MEMBER_USERNAME\">$_Application_Module_Administration_Robot_Monitor_LIST_MEMBER_USERNAME</A> - [ <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Robot_Monitor&amp;DeleteID&#61;$_Application_Module_Administration_Robot_Monitor_LIST_MEMBER_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Delete The Member Account :: $_Application_Module_Administration_Robot_Monitor_LIST_MEMBER_USERNAME\">Delete</A> ]</TD>
 																<TD WIDTH=\"33%\" BORDER=\"0\">$_Application_Module_Administration_Robot_Monitor_LIST_MEMBER_ELECTRONIC_MAIL_ADDRESS</TD>
 																<TD WIDTH=\"33%\" BORDER=\"0\">$_Application_Module_Administration_Robot_Monitor_LIST_MEMBER_REGISTRATION_DATE</TD>
 																</TD>
@@ -161,7 +161,7 @@ $DB->free($_Application_Module_Administration_Robot_Monitor_DB_Query_DELETE_ALL)
 
 } // [ + ] IF: Internal Application: Delete All Non-Activated Member Accounts Is Activated
 
-													echo ("<BR><BR>[ <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Robot_Monitor&amp;DeleteID&#61;All\" TITLE=\":: Delete All Potential Automated and Malicious Non-Activated Member Accounts ::\">Delete All</A> ]<BR>");
+													echo ("<BR><BR>[ <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Robot_Monitor&amp;DeleteID&#61;All&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Delete All Potential Automated and Malicious Non-Activated Member Accounts ::\">Delete All</A> ]<BR>");
 
 /*
  ============================================================================================================

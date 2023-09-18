@@ -191,8 +191,8 @@ $_Application_Module_Administration_Web_Pages_LIST_LINK_URL				= $_Application_M
 
 echo ("
 												Link Entry Name: <B>$_Application_Module_Administration_Web_Pages_LIST_LINK_NAME</B><HR>
-												=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Web_Pages&amp;DeleteLinkID&#61;$_Application_Module_Administration_Web_Pages_LIST_LINK_ID\" TITLE=\":: Delete The Application Link :: $_Application_Module_Administration_Web_Pages_LIST_LINK_NAME ::\">Delete</A><BR>
-												=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Web_Pages&amp;UpdateLinkID&#61;$_Application_Module_Administration_Web_Pages_LIST_LINK_ID\" TITLE=\":: Update The Application Link :: $_Application_Module_Administration_Web_Pages_LIST_LINK_NAME ::\">Update</A><BR><BR>
+												=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Web_Pages&amp;DeleteLinkID&#61;$_Application_Module_Administration_Web_Pages_LIST_LINK_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Delete The Application Link :: $_Application_Module_Administration_Web_Pages_LIST_LINK_NAME ::\">Delete</A><BR>
+												=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Web_Pages&amp;UpdateLinkID&#61;$_Application_Module_Administration_Web_Pages_LIST_LINK_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Update The Application Link :: $_Application_Module_Administration_Web_Pages_LIST_LINK_NAME ::\">Update</A><BR><BR>
 ");
 
 /*
@@ -436,9 +436,9 @@ $_Application_Module_Administration_Web_Pages_LIST_CUSTOM_APPLICATION_DATA				= 
 $_Application_Module_Administration_Web_Pages_LIST_CUSTOM_APPLICATION_DATA				= str_replace($_GLOBAL_PLUGIN_SAFEHTML_SMILEYS_BACK, $_GLOBAL_PLUGIN_SAFEHTML_SMILEYS_BACK_REPLACE, $_Application_Module_Administration_Web_Pages_LIST_CUSTOM_APPLICATION_DATA);
 
 echo ("
-												Custom Web Application Name: <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_CUSTOM&#61;$_Application_Module_Administration_Web_Pages_LIST_CUSTOM_APPLICATION_ID\" TITLE=\":: Open & Display The Custom Web Application :: $_Application_Module_Administration_Web_Pages_LIST_CUSTOM_APPLICATION_NAME\">$_Application_Module_Administration_Web_Pages_LIST_CUSTOM_APPLICATION_NAME</A><HR>
-													=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Web_Pages&amp;DeleteCustomApplicationID&#61;$_Application_Module_Administration_Web_Pages_LIST_CUSTOM_APPLICATION_ID\" TITLE=\":: Delete The Custom Web Application :: $_Application_Module_Administration_Web_Pages_LIST_CUSTOM_APPLICATION_NAME ::\">Delete</A><BR>
-													=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Web_Pages&amp;UpdateCustomApplicationID&#61;$_Application_Module_Administration_Web_Pages_LIST_CUSTOM_APPLICATION_ID\" TITLE=\":: Update The Custom Web Application :: $_Application_Module_Administration_Web_Pages_LIST_CUSTOM_APPLICATION_NAME ::\">Update</A><BR><BR>
+												Custom Web Application Name: <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_CUSTOM&#61;$_Application_Module_Administration_Web_Pages_LIST_CUSTOM_APPLICATION_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Custom Web Application :: $_Application_Module_Administration_Web_Pages_LIST_CUSTOM_APPLICATION_NAME\">$_Application_Module_Administration_Web_Pages_LIST_CUSTOM_APPLICATION_NAME</A><HR>
+													=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Web_Pages&amp;DeleteCustomApplicationID&#61;$_Application_Module_Administration_Web_Pages_LIST_CUSTOM_APPLICATION_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Delete The Custom Web Application :: $_Application_Module_Administration_Web_Pages_LIST_CUSTOM_APPLICATION_NAME ::\">Delete</A><BR>
+													=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Web_Pages&amp;UpdateCustomApplicationID&#61;$_Application_Module_Administration_Web_Pages_LIST_CUSTOM_APPLICATION_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Update The Custom Web Application :: $_Application_Module_Administration_Web_Pages_LIST_CUSTOM_APPLICATION_NAME ::\">Update</A><BR><BR>
 ");
 
 /*

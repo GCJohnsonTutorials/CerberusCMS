@@ -246,7 +246,7 @@ $_Application_Module_Administration_Accounts_LIST_MEMBER_ACCOUNT_AUTHORIZED_MAC_
 
 echo ("
 										<BR><HR>
-										<CENTER><B>Currently Updating The Registered Member Account</B>: <I><A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Administration_Accounts_LIST_MEMBER_ACCOUNT_USERNAME\" TITLE=\":: Open & Display The Account Profile For Registered Member Account :: $_Application_Module_Administration_Accounts_LIST_MEMBER_ACCOUNT_USERNAME ::\" TARGET=\"_NEW\">$_Application_Module_Administration_Accounts_LIST_MEMBER_ACCOUNT_USERNAME :: With Account ID Number: $_Application_Module_Administration_Accounts_LIST_MEMBER_ACCOUNT_ID :: $_Application_Module_Administration_Accounts_POST_UPDATE_MEMBER_ACCOUNT_ID</A></I></CENTER>
+										<CENTER><B>Currently Updating The Registered Member Account</B>: <I><A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Administration_Accounts_LIST_MEMBER_ACCOUNT_USERNAME&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Account Profile For Registered Member Account :: $_Application_Module_Administration_Accounts_LIST_MEMBER_ACCOUNT_USERNAME ::\" TARGET=\"_NEW\">$_Application_Module_Administration_Accounts_LIST_MEMBER_ACCOUNT_USERNAME :: With Account ID Number: $_Application_Module_Administration_Accounts_LIST_MEMBER_ACCOUNT_ID :: $_Application_Module_Administration_Accounts_POST_UPDATE_MEMBER_ACCOUNT_ID</A></I></CENTER>
 											<HR>
 											<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Accounts\" METHOD=\"POST\">
 												Registered Member Account :: Privilege<HR>

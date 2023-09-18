@@ -186,8 +186,8 @@ $_Application_Module_Administration_Networking_LIST_BLOCKED_NETWORK_ID				= $_Ap
 $_Application_Module_Administration_Networking_LIST_BLOCKED_NETWORK_ADDRESS			= $_Application_Module_Administration_Networking_DB_Query_LIST_BLOCKED_NETWORKS_Fetch_Array['blocked_ip_address_string'];
 
 echo ("
-												String :: Blocked Network Address: <A HREF=\"http://www.WhoIs.sc/$_Application_Module_Administration_Networking_LIST_BLOCKED_NETWORK_ADDRESS\" TITLE=\":: Who-Is Lookup Information On Network Address: $_Application_Module_Administration_Networking_LIST_BLOCKED_NETWORK_ADDRESS ::\" TARGET=\"_NEW\">$_Application_Module_Administration_Networking_LIST_BLOCKED_NETWORK_ADDRESS</A><HR>
-													* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Networking&amp;Remove&#61;$_Application_Module_Administration_Networking_LIST_BLOCKED_NETWORK_ID\" TITLE=\":: Remove Network Block :: From Network Address :: $_Application_Module_Administration_Networking_LIST_BLOCKED_NETWORK_ADDRESS ::\">Remove Network Block</A><BR><BR>
+												String :: Blocked Network Address: <A HREF=\"http://www.WhoIs.sc/$_Application_Module_Administration_Networking_LIST_BLOCKED_NETWORK_ADDRESS&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Who-Is Lookup Information On Network Address: $_Application_Module_Administration_Networking_LIST_BLOCKED_NETWORK_ADDRESS ::\" TARGET=\"_NEW\">$_Application_Module_Administration_Networking_LIST_BLOCKED_NETWORK_ADDRESS</A><HR>
+													* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Networking&amp;Remove&#61;$_Application_Module_Administration_Networking_LIST_BLOCKED_NETWORK_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Remove Network Block :: From Network Address :: $_Application_Module_Administration_Networking_LIST_BLOCKED_NETWORK_ADDRESS ::\">Remove Network Block</A><BR><BR>
 ");
 
 /*

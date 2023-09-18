@@ -243,8 +243,8 @@ $_Application_Module_Administration_Forum_LIST_FORUM_DESCRIPTION				= $_Applicat
 $_Application_Module_Administration_Forum_LIST_FORUM_TITLE					= $_Application_Module_Administration_Forum_DB_Query_SELECT_FORUMS_Fetch_Array['forum_title'];
 
 echo ("																Forum Name: <B>$_Application_Module_Administration_Forum_LIST_FORUM_TITLE</B><BR>
-																=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Forum&amp;UpdateForumID&#61;$_Application_Module_Administration_Forum_LIST_FORUM_ID\" TITLE=\":: Update The Forum :: $_Application_Module_Administration_Forum_LIST_FORUM_TITLE ::\">Update</A><BR>
-																=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Forum&amp;DeleteForumID&#61;$_Application_Module_Administration_Forum_LIST_FORUM_ID\" TITLE=\":: Delete The Forum :: $_Application_Module_Administration_Forum_LIST_FORUM_TITLE ::\">Delete</A><BR><BR>
+																=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Forum&amp;UpdateForumID&#61;$_Application_Module_Administration_Forum_LIST_FORUM_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Update The Forum :: $_Application_Module_Administration_Forum_LIST_FORUM_TITLE ::\">Update</A><BR>
+																=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Forum&amp;DeleteForumID&#61;$_Application_Module_Administration_Forum_LIST_FORUM_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Delete The Forum :: $_Application_Module_Administration_Forum_LIST_FORUM_TITLE ::\">Delete</A><BR><BR>
 ");
 
 /*
@@ -585,8 +585,8 @@ $_Application_Module_Administration_Forum_LIST_FORUM_TOPIC_TITLE				= $_Applicat
 
 echo ("
 																Forum Topic Name: <B>$_Application_Module_Administration_Forum_LIST_FORUM_TOPIC_TITLE</B><BR>
-																=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Forum&amp;UpdateTopicID&#61;$_Application_Module_Administration_Forum_LIST_FORUM_TOPIC_ID\" TITLE=\":: Update The Forum Topic :: $_Application_Module_Administration_Forum_LIST_FORUM_TOPIC_TITLE ::\">Update</A><BR>
-																=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Forum&amp;DeleteTopicID&#61;$_Application_Module_Administration_Forum_LIST_FORUM_TOPIC_ID\" TITLE=\":: Delete The Forum Topic :: $_Application_Module_Administration_Forum_LIST_FORUM_TOPIC_TITLE ::\">Delete</A><BR><BR>
+																=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Forum&amp;UpdateTopicID&#61;$_Application_Module_Administration_Forum_LIST_FORUM_TOPIC_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Update The Forum Topic :: $_Application_Module_Administration_Forum_LIST_FORUM_TOPIC_TITLE ::\">Update</A><BR>
+																=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Forum&amp;DeleteTopicID&#61;$_Application_Module_Administration_Forum_LIST_FORUM_TOPIC_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Delete The Forum Topic :: $_Application_Module_Administration_Forum_LIST_FORUM_TOPIC_TITLE ::\">Delete</A><BR><BR>
 ");
 
 /*

@@ -268,8 +268,8 @@ if ($_Application_Module_Administration_Archive_READ_ARCHIVE_DIRECTORY == "." ||
 
 echo ("
 Archive: $_Application_Module_Administration_Archive_READ_ARCHIVE_DIRECTORY<BR>
-=> <A HREF=\"./Applications/Administration/System_Archive/$_Application_Module_Administration_Archive_READ_ARCHIVE_DIRECTORY\" TITLE=\":: Download The Archived Package :: $_Application_Module_Administration_Archive_READ_ARCHIVE_DIRECTORY\">Download</A><BR>
-=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Archive&amp;Delete&#61;$_Application_Module_Administration_Archive_READ_ARCHIVE_DIRECTORY\" TITLE=\":: Delete The Archived Package :: $_Application_Module_Administration_Archive_READ_ARCHIVE_DIRECTORY\">Delete</A><BR><BR>
+=> <A HREF=\"./Applications/Administration/System_Archive/$_Application_Module_Administration_Archive_READ_ARCHIVE_DIRECTORY&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Download The Archived Package :: $_Application_Module_Administration_Archive_READ_ARCHIVE_DIRECTORY\">Download</A><BR>
+=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Archive&amp;Delete&#61;$_Application_Module_Administration_Archive_READ_ARCHIVE_DIRECTORY&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Delete The Archived Package :: $_Application_Module_Administration_Archive_READ_ARCHIVE_DIRECTORY\">Delete</A><BR><BR>
 ");
 
 /*

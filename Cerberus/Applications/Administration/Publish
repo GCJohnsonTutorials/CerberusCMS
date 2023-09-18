@@ -72,7 +72,7 @@ while ($_Application_Module_Administration_Publish_DB_Query_SELECT_NEWS_SUBMISSI
 /*
  ============================================================================================================ 
  +
- + List News Submission Database Entries Into Variables
+ + List :: News Submission Database Entries Into Variables
  +
  ============================================================================================================ 
 */
@@ -86,7 +86,7 @@ $_Application_Module_Administration_Publish_LIST_NEWS_SUBMISSION_TIME			= $_Appl
  ============================================================================================================ 
  +
  +
- + Display News Submission Form
+ + Display :: News Article Entry Submission :: Input Form
  +
  +
  ============================================================================================================ 
@@ -165,7 +165,7 @@ $_Application_Module_Administration_Publish_POST_Publish_News_Article_DATA			= s
 /*
  ============================================================================================================ 
  +
- + Publish News Form
+ + Publish News Article Entry Input Form
  +
  ============================================================================================================ 
 */
@@ -193,7 +193,7 @@ echo ("
 
 /*
  ============================================================================================================ 
- + Database Server Query :: Publish News Query
+ + Database Server Query :: Publish News Article Entry Query
  ============================================================================================================ 
 */
 
@@ -204,7 +204,7 @@ if ($_Application_Module_Administration_Publish_DB_Query_PUBLISH_NEWS) {
 
 /*
  ============================================================================================================ 
- + Create News File
+ + Create :: News Article Entry File
  ============================================================================================================ 
 */
 
@@ -223,7 +223,7 @@ fwrite($_Application_Module_Administration_Publish_OPEN_NEWS_FILE, "$_Applicatio
 
 /*
  ============================================================================================================ 
- + Close News File
+ + Close :: News Article Entry File
  ============================================================================================================ 
 */
 
@@ -247,7 +247,7 @@ $DB->free($_Application_Module_Administration_Publish_DB_Query_PUBLISH_NEWS);
  ============================================================================================================ 
  +
  +
- + Publish Article
+ + Publish Article Entry
  +
  +
  ============================================================================================================ 
@@ -277,14 +277,14 @@ $_Application_Module_Administration_Publish_POST_PUBLISH_ARTICLE_TEXT			= str_re
 /*
  ============================================================================================================ 
  +
- + Display Publish Article Entry Form
+ + Display :: Publish Article Entry Form
  +
  ============================================================================================================ 
 */
 
 /*
  ============================================================================================================ 
- + IF: Publish Article Entry Form Variables Have Not Executed, Display Form
+ + IF: Publish Article Entry Input Form Variables Have Not Executed, Display Input Form
  ============================================================================================================ 
 */
 
@@ -307,7 +307,7 @@ echo ("
 
 /*
  ============================================================================================================ 
- + Insert Article Entry Into The Database Server
+ + Insert Article Entry Into The Database Management System Server Database
  ============================================================================================================ 
 */
 
@@ -318,7 +318,7 @@ if ($_Application_Module_Administration_Publish_DB_Query_PUBLISH_ARTICLE) {
 
 /*
  ============================================================================================================ 
- + Create Printable Article Entry File
+ + Create :: Printable Article Entry File
  ============================================================================================================ 
 */
 
@@ -337,7 +337,7 @@ fwrite($_Application_Module_Administration_Publish_OPEN_ARTICLE_FILE, "$_Applica
 
 /*
  ============================================================================================================ 
- + Close File: Article File
+ + Close File: Article Entry File
  ============================================================================================================ 
 */
 
@@ -432,7 +432,7 @@ This Mass Electronic Mail Message Was Sent On: $_GLOBAL_LOCAL_SERVER_DATE_STANDA
 
 													echo ($_Message_ERROR_ACTION_UNIVERSAL);
 
-} // [ + ] IF: Send Electronic Mail Message
+} // [ + ] IF: Send Electronic Mail Message :: Mass Newsletter
 
 } // [ + ] WHILE: Retrieving Member Accounts WHERE: Newsletter Setting IS: On
 

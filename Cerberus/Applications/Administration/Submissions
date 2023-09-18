@@ -87,10 +87,10 @@ $_Application_Module_Administration_Submissions_LIST_NEWS_SUBMISSION_DATA			= $_
 $_Application_Module_Administration_Submissions_LIST_NEWS_SUBMISSION_TIME			= $_Application_Module_Administration_Submissions_SQL_Query_SELECT_SUBMISSIONS_Fetch_Array['news_submission_time'];
 
 echo ("
-													News Entry Submitted On: $_Application_Module_Administration_Submissions_LIST_NEWS_SUBMISSION_TIME - By: <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Administration_Submissions_LIST_NEWS_SUBMISSION_AUTHOR\" TITLE=\":: Open & Display The Profile For :: $_Application_Module_Administration_Submissions_LIST_NEWS_SUBMISSION_AUTHOR ::\">$_Application_Module_Administration_Submissions_LIST_NEWS_SUBMISSION_AUTHOR</A><HR>
+													News Article Entry Submitted On: $_Application_Module_Administration_Submissions_LIST_NEWS_SUBMISSION_TIME - By: <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Administration_Submissions_LIST_NEWS_SUBMISSION_AUTHOR&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Profile For :: $_Application_Module_Administration_Submissions_LIST_NEWS_SUBMISSION_AUTHOR ::\">$_Application_Module_Administration_Submissions_LIST_NEWS_SUBMISSION_AUTHOR</A><HR>
 													<I>$_Application_Module_Administration_Submissions_LIST_NEWS_SUBMISSION_DATA</I><HR>
-													=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Submissions&amp;DeleteID&#61;$_Application_Module_Administration_Submissions_LIST_NEWS_SUBMISSION_ID\" TITLE=\":: Delete This News Article Submission ::\">Delete</A><BR>
-													=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Publish&amp;SubmissionID&#61;$_Application_Module_Administration_Submissions_LIST_NEWS_SUBMISSION_ID\" TITLE=\":: Publish This News Article Submission ::\">Publish</A><BR><BR>
+													=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Submissions&amp;DeleteID&#61;$_Application_Module_Administration_Submissions_LIST_NEWS_SUBMISSION_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Delete This News Article Submission ::\">Delete</A><BR>
+													=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Publish&amp;SubmissionID&#61;$_Application_Module_Administration_Submissions_LIST_NEWS_SUBMISSION_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Publish This News Article Submission ::\">Publish</A><BR><BR>
 ");
 
 /*

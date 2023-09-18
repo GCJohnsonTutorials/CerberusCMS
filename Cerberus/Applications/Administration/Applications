@@ -353,8 +353,8 @@ $_Application_Module_Administration_Applications_LIST_APPLICATION_FILE_INTEGRITY
 echo ("
 
 													Application File Name: <B>$_Application_Module_Administration_Applications_LIST_APPLICATION_FILE_NAME</B><HR>
-													=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Applications&amp;Delete&#61;$_Application_Module_Administration_Applications_LIST_APPLICATION_ID\" TITLE=\":: Delete The Application :: $_Application_Module_Administration_Applications_LIST_APPLICATION_FILE_NAME\">Delete</A><BR>
-													=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Applications&amp;Update&#61;$_Application_Module_Administration_Applications_LIST_APPLICATION_ID\" TITLE=\":: Update The Application :: $_Application_Module_Administration_Applications_LIST_APPLICATION_FILE_NAME\">Update</A><BR><BR>
+													=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Applications&amp;Delete&#61;$_Application_Module_Administration_Applications_LIST_APPLICATION_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Delete The Application :: $_Application_Module_Administration_Applications_LIST_APPLICATION_FILE_NAME\">Delete</A><BR>
+													=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Applications&amp;Update&#61;$_Application_Module_Administration_Applications_LIST_APPLICATION_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Update The Application :: $_Application_Module_Administration_Applications_LIST_APPLICATION_FILE_NAME\">Update</A><BR><BR>
 ");
 
 /*

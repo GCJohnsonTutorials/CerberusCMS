@@ -166,8 +166,8 @@ $_Application_Module_Administration_File_Categories_LIST_FILE_CATEGORY_TITLE				
 
 echo ("
 																File Category Name: <B>$_Application_Module_Administration_File_Categories_LIST_FILE_CATEGORY_TITLE</B><BR>
-																=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;File_Categories&amp;DeleteID&#61;$_Application_Module_Administration_File_Categories_LIST_FILE_CATEGORY_ID\" TITLE=\":: Delete The File Category Entry :: $_Application_Module_Administration_File_Categories_LIST_FILE_CATEGORY_TITLE\">Delete</A><BR>
-																=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;File_Categories&amp;UpdateID&#61;$_Application_Module_Administration_File_Categories_LIST_FILE_CATEGORY_ID\" TITLE=\":: Update The File Category Entry :: $_Application_Module_Administration_File_Categories_LIST_FILE_CATEGORY_TITLE\">Update</A><BR><BR>
+																=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;File_Categories&amp;DeleteID&#61;$_Application_Module_Administration_File_Categories_LIST_FILE_CATEGORY_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Delete The File Category Entry :: $_Application_Module_Administration_File_Categories_LIST_FILE_CATEGORY_TITLE\">Delete</A><BR>
+																=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;File_Categories&amp;UpdateID&#61;$_Application_Module_Administration_File_Categories_LIST_FILE_CATEGORY_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Update The File Category Entry :: $_Application_Module_Administration_File_Categories_LIST_FILE_CATEGORY_TITLE\">Update</A><BR><BR>
 ");
 
 /*
