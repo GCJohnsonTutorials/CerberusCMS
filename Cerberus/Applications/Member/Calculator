@@ -69,7 +69,7 @@
  ============================================================================================================
 */
 
-echo ("<CENTER>— <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Calculator&amp;Display&#61;Options\" TITLE=\":: Open & Display The Application Module :: Calculator :: Calculator Options ::\">Options</A> —</CENTER><HR>");
+echo ("<CENTER>— <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Calculator&amp;Display&#61;Options&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Application Module :: Calculator :: Calculator Options ::\">Options</A> —</CENTER><HR>");
 
 /*
  ============================================================================================================
@@ -100,12 +100,12 @@ $_Application_Module_Member_Calculator_SIMPLE_POST_VALUE_NUMBER_2					= $_POST['
 if ($_GET["Display"] == "Options") {
 
 echo ("
-* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Calculator&amp;Display&#61;Simple_Calculator\" TITLE=\":: Open & Display The Application Module :: Calculator :: Simple Calculator ::\">Simple Calculator</A><BR>
-* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Calculator&amp;Display&#61;Advanced_Calculator\" TITLE=\":: Open & Display The Application Module :: Calculator :: Advanced Calculator ::\">Advanced Calculator</A><BR>
-* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Calculator&amp;Display&#61;Fraction_Calculator\" TITLE=\":: Open & Display The Application Module :: Calculator :: Fraction Calculator ::\">Fraction Calculator</A><BR>
-* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Calculator&amp;Display&#61;Exponents_Calculator\" TITLE=\":: Open & Display The Application Module :: Calculator :: Exponents Calculator ::\">Exponents Calculator</A><BR> 
-* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Calculator&amp;Display&#61;Algebraic_Calculator\" TITLE=\":: Open & Display The Application Module :: Calculator :: Algebraic Calculator ::\">Algebraic Calculator</A><BR>
-* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Calculator&amp;Display&#61;Scientific_Calculator\" TITLE=\":: Open & Display The Application Module :: Calculator :: Scientific Calculator ::\">Scientific Calculator</A>
+* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Calculator&amp;Display&#61;Simple_Calculator&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Application Module :: Calculator :: Simple Calculator ::\">Simple Calculator</A><BR>
+* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Calculator&amp;Display&#61;Advanced_Calculator&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Application Module :: Calculator :: Advanced Calculator ::\">Advanced Calculator</A><BR>
+* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Calculator&amp;Display&#61;Fraction_Calculator&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Application Module :: Calculator :: Fraction Calculator ::\">Fraction Calculator</A><BR>
+* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Calculator&amp;Display&#61;Exponents_Calculator&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Application Module :: Calculator :: Exponents Calculator ::\">Exponents Calculator</A><BR> 
+* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Calculator&amp;Display&#61;Algebraic_Calculator&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Application Module :: Calculator :: Algebraic Calculator ::\">Algebraic Calculator</A><BR>
+* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Calculator&amp;Display&#61;Scientific_Calculator&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Application Module :: Calculator :: Scientific Calculator ::\">Scientific Calculator</A>
 <BR>
 ");
 

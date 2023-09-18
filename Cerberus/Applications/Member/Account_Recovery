@@ -67,7 +67,7 @@ if ($_GET["Display"] == "Options") {
 
 echo ("
 Account Recovery :: Options<BR>
-* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Account_Recovery&amp;Option&#61;1\" TITLE=\":: Open & Display The Internal Application :: Initiate The Registered Member Account Recovery Process ::\">Initiate The Registered Member Account Recovery Process</A><BR>
+* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Account_Recovery&amp;Option&#61;1&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Internal Application :: Initiate The Registered Member Account Recovery Process ::\">Initiate The Registered Member Account Recovery Process</A><BR>
 ");
 
 } // [ + ] IF: Internal Application :: Display Options: Is Activated

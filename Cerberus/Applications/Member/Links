@@ -118,7 +118,7 @@ if ($_GET["DisplayID"] == "All") {
 
 echo ("
 <B>Link Entry Name</B>: <I>$_Application_Module_Member_Links_LIST_LINK_TITLE</I><BR>
-<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Links&amp;DisplayID&#61;$_Application_Module_Member_Links_LIST_LINK_ID\" TITLE=\":: Open & Display The Link Entry :: $_Application_Module_Member_Links_LIST_LINK_TITLE ::\">Open This Link</A><BR><BR>
+<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Links&amp;DisplayID&#61;$_Application_Module_Member_Links_LIST_LINK_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Link Entry :: $_Application_Module_Member_Links_LIST_LINK_TITLE ::\">Open This Link</A><BR><BR>
 ");
 
 } // [ + ] IF: Internal Application: Display :: All Link Entries :: Is: Activated
@@ -134,13 +134,13 @@ echo ("
 if ($_GET["DisplayID"] == "$_Application_Module_Member_Links_LIST_LINK_ID") {
 
 echo ("
-											<A HREF=\"http://$_Application_Module_Member_Links_LIST_LINK_URL\" TARGET=\"_NEW\" TITLE=\":: Open & Display :: The Link Entry :: $_Application_Module_Member_Links_LIST_LINK_TITLE\">$_Application_Module_Member_Links_LIST_LINK_TITLE</A>
+											<A HREF=\"http://$_Application_Module_Member_Links_LIST_LINK_URL&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TARGET=\"_NEW\" TITLE=\":: Open & Display :: The Link Entry :: $_Application_Module_Member_Links_LIST_LINK_TITLE\">$_Application_Module_Member_Links_LIST_LINK_TITLE</A>
 											<HR>
 												<B>Link Entry :: Description</B><BR>
 												<I>$_Application_Module_Member_Links_LIST_LINK_DESCRIPTION</I>
 											<HR>
 												<B>Link Entry :: Timestamp :: Submission</B>: $_Application_Module_Member_Links_LIST_LINK_TIME<BR>
-												<B>Link Entry :: Submission :: Author</B>: <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Links_LIST_LINK_AUTHOR\" TITLE=\":: Open & Display :: The Registered Member Account :: Profile Entry For :: $_Application_Module_Member_Links_LIST_LINK_AUTHOR ::\">$_Application_Module_Member_Links_LIST_LINK_AUTHOR</A>
+												<B>Link Entry :: Submission :: Author</B>: <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Links_LIST_LINK_AUTHOR&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Registered Member Account :: Profile Entry For :: $_Application_Module_Member_Links_LIST_LINK_AUTHOR ::\">$_Application_Module_Member_Links_LIST_LINK_AUTHOR</A>
 											<BR><BR>
 												=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Update&amp;Data&#61;Links&amp;UpdateLinkID&#61;$_Application_Module_Member_Links_LIST_LINK_ID\" TITLE=\":: Update :: This Link Entry ::\">Update</A><BR>
 												=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Update&amp;Data&#61;Links&amp;DeleteLinkID&#61;$_Application_Module_Member_Links_LIST_LINK_ID\" TITLE=\":: Delete :: This Link Entry ::\">Delete</A><BR><BR>

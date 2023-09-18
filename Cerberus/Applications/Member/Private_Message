@@ -73,7 +73,7 @@
 $_Application_Module_Private_Message_DB_Query_SELECT_PRIVATE_MESSAGES			= $DB->query("SELECT * FROM {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_private_messages WHERE private_message_recipient='$_GLOBAL_COOKIE_MEMBER_USERNAME' ORDER BY private_message_sent_time ASC LIMIT 20");
 
 echo ("
-																			<CENTER>[ <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Message&amp;PrivateMessageID&#61;All\" TITLE=\"View Private Message Inbox\">Inbox</A> - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Message&amp;PrivateMessageID&#61;Outbox\" TITLE=\"View Private Message Outbox\">Outbox</A> - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Message&amp;PrivateMessageID&#61;Send\" TITLE=\"Compose New Private Message\">Compose</A> ]</CENTER><HR>
+																			<CENTER>[ <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Message&amp;PrivateMessageID&#61;All&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\"View Private Message Inbox\">Inbox</A> - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Message&amp;PrivateMessageID&#61;Outbox&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\"View Private Message Outbox\">Outbox</A> - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Message&amp;PrivateMessageID&#61;Send&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\"Compose New Private Message\">Compose</A> ]</CENTER><HR>
 ");
 
 if ($DB->num_rows($_Application_Module_Private_Message_DB_Query_SELECT_PRIVATE_MESSAGES) <= 0) {
@@ -126,7 +126,7 @@ if ($_GET["PrivateMessageID"] == "$_Application_Module_Private_Message_LIST_PRIV
 echo ("
 											<B>Message Subject</B>: $_Application_Module_Private_Message_LIST_PRIVATE_MESSAGE_SUBJECT<BR>________________________<BR><BR>
 											<B>Message</B>:<BR><I>$_Application_Module_Private_Message_LIST_PRIVATE_MESSAGE_DATA</I><HR>
-											<B>Sent</B>: $_Application_Module_Private_Message_LIST_PRIVATE_MESSAGE_SENT_TIME - <B>From</B>: [ <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Private_Message_LIST_PRIVATE_MESSAGE_FROM\" TITLE=\"Profile :: $_Application_Module_Private_Message_LIST_PRIVATE_MESSAGE_FROM\">$_Application_Module_Private_Message_LIST_PRIVATE_MESSAGE_FROM</A> - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Message&amp;DeleteMessageID&#61;$_Application_Module_Private_Message_LIST_PRIVATE_MESSAGE_ID\" TITLE=\"Delete :: $_Application_Module_Private_Message_LIST_PRIVATE_MESSAGE_SUBJECT\">Delete</A> ]
+											<B>Sent</B>: $_Application_Module_Private_Message_LIST_PRIVATE_MESSAGE_SENT_TIME - <B>From</B>: [ <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Private_Message_LIST_PRIVATE_MESSAGE_FROM&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\"Profile :: $_Application_Module_Private_Message_LIST_PRIVATE_MESSAGE_FROM\">$_Application_Module_Private_Message_LIST_PRIVATE_MESSAGE_FROM</A> - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Message&amp;DeleteMessageID&#61;$_Application_Module_Private_Message_LIST_PRIVATE_MESSAGE_ID\" TITLE=\"Delete :: $_Application_Module_Private_Message_LIST_PRIVATE_MESSAGE_SUBJECT\">Delete</A> ]
 ");
 
 } // [ + ] IF: Internal Application: Display Private Message By ID Is Activated
@@ -301,7 +301,7 @@ echo ("
 											<CENTER>
 												<TABLE BORDER=\"1\" WIDTH=\"100%\" CELLPADDING=\"0\" CELLSPACING=\"0\">
 													<TR>
-														<TD WIDTH=\"90%\"><B>Message Subject</B>: <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Message&amp;PrivateMessageID&#61;$_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_ID\" TITLE=\"Read Private Message :: $_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_SUBJECT\">$_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_SUBJECT</A></TD>
+														<TD WIDTH=\"90%\"><B>Message Subject</B>: <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Message&amp;PrivateMessageID&#61;$_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\"Read Private Message :: $_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_SUBJECT\">$_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_SUBJECT</A></TD>
 														<TD WIDTH=\"10%\"><A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Message&amp;DeleteMessageID&#61;$_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_ID\" TITLE=\"Delete Private Message :: $_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_SUBJECT\">Delete</A></TD>
 													</TR>
 												</TABLE>
@@ -355,7 +355,7 @@ if ($_GET["PrivateMessageID"] == "$_Application_Module_Private_Message_LIST_OUTB
 echo ("
 											<B>Message Subject</B>: $_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_SUBJECT<BR>________________________<BR><BR>
 											<B>Message</B>:<BR><I>$_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_DATA</I><HR>
-											<B>Sent</B>: $_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_SENT_TIME - <B>From</B>: [ <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_FROM\" TITLE=\"Profile :: $_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_FROM\">$_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_FROM</A> - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Message&amp;DeleteMessageID&#61;$_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_ID\" TITLE=\"Delete :: $_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_SUBJECT\">Delete</A> ]
+											<B>Sent</B>: $_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_SENT_TIME - <B>From</B>: [ <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_FROM&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\"Profile :: $_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_FROM\">$_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_FROM</A> - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Message&amp;DeleteMessageID&#61;$_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_ID\" TITLE=\"Delete :: $_Application_Module_Private_Message_LIST_OUTBOX_PRIVATE_MESSAGE_SUBJECT\">Delete</A> ]
 ");
 
 } // [ + ] IF: Internal Application: Display Private Message By ID In OutBox Is Activated

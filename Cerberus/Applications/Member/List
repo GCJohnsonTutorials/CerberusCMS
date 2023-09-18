@@ -74,13 +74,13 @@
 if ($_GET["Display"] == "List") {
 
 
-echo ("<CENTER><A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;List&amp;Display&#61;Avatars\" TITLE=\":: Open & Display :: All Avatar Images ::\">Avatars</A> :: 
-<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;List&amp;Display&#61;Emojis\" TITLE=\":: Open & Display :: All Operating System-Level Emojis ::\">Emojis</A> ::
-<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;List&amp;Display&#61;Animojis\" TITLE=\":: Open & Display :: All Operating System-Level Emojis ::\">Animojis</A> :: 
-<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;List&amp;Display&#61;Smileys\" TITLE=\":: Open & Display :: All Available Smiley Images ::\">Smileys</A> :: 
-<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;List&amp;Display&#61;MyFiles\" TITLE=\":: Open & Display :: My Registered Member Account Files ::\">My Files</A> :: 
-<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;List&amp;Display&#61;Ranks\" TITLE=\":: Open & Display :: All Available System Ranks ::\">Ranks</A> :: 
-<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;List&amp;Display&#61;SafeHTML\" TITLE=\":: Open & Display :: All Available Safe-Hyper-Text-Markup-Language Plug-In Codes ::\">Safe-HTML Codes</A></CENTER>
+echo ("<CENTER><A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;List&amp;Display&#61;Avatars&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: All Avatar Images ::\">Avatars</A> :: 
+<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;List&amp;Display&#61;Emojis&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: All Operating System-Level Emojis ::\">Emojis</A> ::
+<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;List&amp;Display&#61;Animojis&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: All Operating System-Level Emojis ::\">Animojis</A> :: 
+<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;List&amp;Display&#61;Smileys&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: All Available Smiley Images ::\">Smileys</A> :: 
+<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;List&amp;Display&#61;MyFiles&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: My Registered Member Account Files ::\">My Files</A> :: 
+<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;List&amp;Display&#61;Ranks&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: All Available System Ranks ::\">Ranks</A> :: 
+<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;List&amp;Display&#61;SafeHTML&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: All Available Safe-Hyper-Text-Markup-Language Plug-In Codes ::\">Safe-HTML Codes</A></CENTER>
 ");
 
 } // [ + ] IF: Internal Application: Display :: All List Options Is: Activated
@@ -132,7 +132,7 @@ if ($_Application_Module_Member_List_READ_DIRECTORY_AVATAR == "." || $_Applicati
 **/
 } else {
 
-											echo ("<A HREF=\"./Theme/$_GLOBAL_MEMBER_THEME_DIRECTORY/Image/Icon_Avatar/$_Application_Module_Member_List_READ_DIRECTORY_AVATAR\" TITLE=\":: Open & Display :: The Image File :: $_Application_Module_Member_List_READ_DIRECTORY_AVATAR\"><IMG SRC=\"./Theme/$_GLOBAL_MEMBER_THEME_DIRECTORY/Image/Icon_Avatar/$_Application_Module_Member_List_READ_DIRECTORY_AVATAR?$_GLOBAL_SYSTEM_SECURITY_IMAGE_RANDOM_STRING_GENERATION_CACHE_CIRCUMVENTION\" ALT=\"$_Application_Module_Member_List_READ_DIRECTORY_AVATAR\"></A>&nbsp;");
+											echo ("<A HREF=\"./Theme/$_GLOBAL_MEMBER_THEME_DIRECTORY/Image/Icon_Avatar/$_Application_Module_Member_List_READ_DIRECTORY_AVATAR?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Image File :: $_Application_Module_Member_List_READ_DIRECTORY_AVATAR\"><IMG SRC=\"./Theme/$_GLOBAL_MEMBER_THEME_DIRECTORY/Image/Icon_Avatar/$_Application_Module_Member_List_READ_DIRECTORY_AVATAR?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" ALT=\"$_Application_Module_Member_List_READ_DIRECTORY_AVATAR\"></A>&nbsp;");
 
 } // [ + ] IF: Directory Contents :: Avatar Directory AND Files ARE NOT Avatar Directory AND Files
 
@@ -237,7 +237,7 @@ if ($_Application_Module_Member_List_READ_DIRECTORY_SMILEYS == "." || $_Applicat
 **/
 } else {
 
-											echo ("<A HREF=\"./Theme/$_GLOBAL_MEMBER_THEME_DIRECTORY/Image/Smiley/$_GLOBAL_SYSTEM_SMILEYS_DIRECTORY/$_Application_Module_Member_List_READ_DIRECTORY_SMILEYS\" TITLE=\":: Open & Display :: The File :: $_Application_Module_Member_List_READ_DIRECTORY_SMILEYS\"><IMG SRC=\"./Theme/$_GLOBAL_MEMBER_THEME_DIRECTORY/Image/Smiley/$_GLOBAL_SYSTEM_SMILEYS_DIRECTORY/$_Application_Module_Member_List_READ_DIRECTORY_SMILEYS?$_GLOBAL_SYSTEM_SECURITY_IMAGE_RANDOM_STRING_GENERATION_CACHE_CIRCUMVENTION\" ALT=\":: $_Application_Module_Member_List_READ_DIRECTORY_SMILEYS ::\"></A>&nbsp;");
+											echo ("<A HREF=\"./Theme/$_GLOBAL_MEMBER_THEME_DIRECTORY/Image/Smiley/$_GLOBAL_SYSTEM_SMILEYS_DIRECTORY/$_Application_Module_Member_List_READ_DIRECTORY_SMILEYS?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The File :: $_Application_Module_Member_List_READ_DIRECTORY_SMILEYS\"><IMG SRC=\"./Theme/$_GLOBAL_MEMBER_THEME_DIRECTORY/Image/Smiley/$_GLOBAL_SYSTEM_SMILEYS_DIRECTORY/$_Application_Module_Member_List_READ_DIRECTORY_SMILEYS?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" ALT=\":: $_Application_Module_Member_List_READ_DIRECTORY_SMILEYS ::\"></A>&nbsp;");
 
 } // [ + ] IF: Directory Contents :: Smiley Image Directory AND Files ARE NOT Smiley Image Directory AND Files
 
@@ -296,7 +296,7 @@ if ($_Application_Module_Member_List_READ_DIRECTORY_MYFILES == "." || $_Applicat
 **/
 } else {
 
-											echo ("<A HREF=\"./Member/$_GLOBAL_COOKIE_MEMBER_USERNAME/Files/$_Application_Module_Member_List_READ_DIRECTORY_MYFILES\" TITLE=\"Open File :: $_Application_Module_Member_List_READ_DIRECTORY_MYFILES\">$_Application_Module_Member_List_READ_DIRECTORY_MYFILES</A><BR>");
+											echo ("<A HREF=\"./Member/$_GLOBAL_COOKIE_MEMBER_USERNAME/Files/$_Application_Module_Member_List_READ_DIRECTORY_MYFILES?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\"Open File :: $_Application_Module_Member_List_READ_DIRECTORY_MYFILES\">$_Application_Module_Member_List_READ_DIRECTORY_MYFILES</A><BR>");
 
 } // [ + ] IF: Directory Contents :: Registered Member Account Files Directory IS NOT Registered Member Account Files Directory
 

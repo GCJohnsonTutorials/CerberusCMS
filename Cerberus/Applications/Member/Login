@@ -199,28 +199,28 @@ echo ("
 
 											Additional Options<HR>
 											Member Account :: Authentication :: Connection Options :: Insecure :: Clear-Text<BR>
-											* <A HREF=\"$_ACCESS_URL_CLEARTEXT/$_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Login\" TITLE=\":: Hyper-Text-Transfer-Protocol-Insecure Over Clear-Text Insecure Connection ::\">Insecure Login :: Clear-Text</A><BR><BR>
+											* <A HREF=\"$_ACCESS_URL_CLEARTEXT/$_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Login&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Hyper-Text-Transfer-Protocol-Insecure Over Clear-Text Insecure Connection ::\">Insecure Login :: Clear-Text</A><BR><BR>
 
 											Member Account :: Authentication :: Connection Options :: Secure :: Secure Socket Layer<BR>
-											* <A HREF=\"$_ACCESS_URL_SECURE_SSL/$_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Login\" TITLE=\":: Hyper-Text-Transfer-Protocol-Secure Over Secure Socket Layer Encrypted Connection ::\">Secure Login :: SSL</A><BR>
-											* <A HREF=\"$_ACCESS_URL_SECURE_OPENSSL/$_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Login\" TITLE=\":: Hyper-Text-Transfer-Protocol-Secure Over Open Secure Socket Layer Encrypted Connection ::\">Secure Login :: OpenSSL</A><BR><BR>
+											* <A HREF=\"$_ACCESS_URL_SECURE_SSL/$_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Login&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Hyper-Text-Transfer-Protocol-Secure Over Secure Socket Layer Encrypted Connection ::\">Secure Login :: SSL</A><BR>
+											* <A HREF=\"$_ACCESS_URL_SECURE_OPENSSL/$_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Login&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Hyper-Text-Transfer-Protocol-Secure Over Open Secure Socket Layer Encrypted Connection ::\">Secure Login :: OpenSSL</A><BR><BR>
 
 											Member Account :: Authentication :: Connection Options :: Secure :: Transport Layer Security<BR>
-											* <A HREF=\"$_ACCESS_URL_SECURE_TLS/$_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Login\" TITLE=\":: Hyper-Text-Transfer-Protocol-Secure Over Transport Layer Security Encrypted Connection ::\">Secure Login :: TLS</A><BR><BR>
+											* <A HREF=\"$_ACCESS_URL_SECURE_TLS/$_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Login&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Hyper-Text-Transfer-Protocol-Secure Over Transport Layer Security Encrypted Connection ::\">Secure Login :: TLS</A><BR><BR>
 
 											Member Account :: Authentication :: Connection Options :: Secure :: Other<BR>
-											* <A HREF=\"$_ACCESS_URL_SECURE/$_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Login\" TITLE=\":: Hyper-Text-Transfer-Protocol-Secure Over Secure Encrypted Connection ::\">Secure Login :: Other</A><BR><BR>
+											* <A HREF=\"$_ACCESS_URL_SECURE/$_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Login&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Hyper-Text-Transfer-Protocol-Secure Over Secure Encrypted Connection ::\">Secure Login :: Other</A><BR><BR>
 
 											Member Account :: Authentication :: Authorization Options<BR>
-											* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Login&amp;Authorization&#61;IP_Address\" TITLE=\":: Initiate The Internet Protocol Address Authorization Process ::\">Internet Protocol Address :: Authorization Request</A><BR>
-											* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Login&amp;Authorization&#61;IP_Token\" TITLE=\":: Authenticate With Internet Protocol Address Authorization Token ::\">Internet Protocol Address :: Authorization Token</A><BR><BR>
+											* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Login&amp;Authorization&#61;IP_Address&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Initiate The Internet Protocol Address Authorization Process ::\">Internet Protocol Address :: Authorization Request</A><BR>
+											* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Login&amp;Authorization&#61;IP_Token&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Authenticate With Internet Protocol Address Authorization Token ::\">Internet Protocol Address :: Authorization Token</A><BR><BR>
 
 											Member Account :: Credentials :: Credential Options<BR>
-											* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Reset_Password\" TITLE=\":: Reset Your Member Account Password Or Other Member Account Credentials ::\">Reset Password</A><BR>
-											* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Account_Recovery&amp;Display&#61;Options\" TITLE=\":: Initiate The Member Account Recovery Options ::\">Account Recovery</A></CENTER><BR><BR>
+											* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Reset_Password&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Reset Your Member Account Password Or Other Member Account Credentials ::\">Reset Password</A><BR>
+											* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Account_Recovery&amp;Display&#61;Options&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Initiate The Member Account Recovery Options ::\">Account Recovery</A></CENTER><BR><BR>
 
 											Member Account :: Registration :: Registration Options<BR>
-											* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Register\" TITLE=\":: Initiate The Member Account Registration Process With $_GLOBAL_SYSTEM_SITE_TITLE ::\">Register</A><BR><BR>
+											* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Register&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Initiate The Member Account Registration Process With $_GLOBAL_SYSTEM_SITE_TITLE ::\">Register</A><BR><BR>
 ");
 
 /*

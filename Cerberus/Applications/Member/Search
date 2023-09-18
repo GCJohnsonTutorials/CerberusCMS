@@ -123,7 +123,7 @@ $_Application_Module_Member_Search_LIST_ARTICLE_TITLE 					= $_Application_Modul
 $_Application_Module_Member_Search_LIST_ARTICLE_DATA_REDUCED 				= substr($_Application_Module_Member_Search_LIST_ARTICLE_DATA, 0, 30);
 
 echo ("
-<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Articles&amp;DisplayID&#61;$_Application_Module_Member_Search_LIST_ARTICLE_ID\" TITLE=\":: Open & Display The Article Entry :: $_Application_Module_Member_Search_LIST_ARTICLE_TITLE ::\">$_Application_Module_Member_Search_LIST_ARTICLE_TITLE</A><BR>
+<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Articles&amp;DisplayID&#61;$_Application_Module_Member_Search_LIST_ARTICLE_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Article Entry :: $_Application_Module_Member_Search_LIST_ARTICLE_TITLE ::\">$_Application_Module_Member_Search_LIST_ARTICLE_TITLE</A><BR>
 ---------------------------------<BR>
 $_Application_Module_Member_Search_LIST_ARTICLE_DATA_REDUCED...<BR><BR>
 ");
@@ -168,7 +168,7 @@ $_Application_Module_Member_Search_LIST_FILE_TITLE					= $_Application_Module_Me
 $_Application_Module_Member_Search_LIST_FILE_DATA_REDUCED				= substr($_Application_Module_Member_Search_LIST_FILE_DATA, 0, 30);
 
 echo ("
-<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Files&amp;FileID&#61;$_Application_Module_Member_Search_LIST_FILE_ID\" TITLE=\":: Open & Display The File Category File Entry :: $_Application_Module_Member_Search_LIST_FILE_TITLE ::\">$_Application_Module_Member_Search_LIST_FILE_TITLE</A><BR>
+<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Files&amp;FileID&#61;$_Application_Module_Member_Search_LIST_FILE_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The File Category File Entry :: $_Application_Module_Member_Search_LIST_FILE_TITLE ::\">$_Application_Module_Member_Search_LIST_FILE_TITLE</A><BR>
 ---------------------------------<BR>
 $_Application_Module_Member_Search_LIST_FILE_DATA_REDUCED...<BR><BR>
 ");
@@ -213,7 +213,7 @@ $_Application_Module_Member_Search_LIST_FORUM_DATA					= $_Application_Module_Me
 $_Application_Module_Member_Search_LIST_FORUM_DATA_REDUCED				= substr($_Application_Module_Member_Search_LIST_FORUM_DATA, 0, 30);
 
 echo ("
-<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Forum&amp;TopicID&#61;$_Application_Module_Member_Search_LIST_FORUM_ID\" TITLE=\":: Open & Display The Forum' Topic' &amp; Message :: $_Application_Module_Member_Search_LIST_FORUM_DATA_REDUCED\">$_Application_Module_Member_Search_LIST_FORUM_AUTHOR</A> Wrote:<BR><BR>
+<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Forum&amp;TopicID&#61;$_Application_Module_Member_Search_LIST_FORUM_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Forum' Topic' &amp; Message :: $_Application_Module_Member_Search_LIST_FORUM_DATA_REDUCED\">$_Application_Module_Member_Search_LIST_FORUM_AUTHOR</A> Wrote:<BR><BR>
 ---------------------------------<BR>
 $_Application_Module_Member_Search_LIST_FORUM_DATA_REDUCED...<BR><BR>
 ");
@@ -268,7 +268,7 @@ $_Application_Module_Member_Search_LIST_MEMBER_PROFILE_PICTURE_DISPLAY 			= "./M
 
 echo ("
 <IMG SRC=\"$_Application_Module_Member_Search_LIST_MEMBER_PROFILE_PICTURE_DISPLAY?$_GLOBAL_SYSTEM_SECURITY_IMAGE_RANDOM_STRING_GENERATION_CACHE_CIRCUMVENTION\" ALT=\":: Profile Image For :: $_Application_Module_Member_Search_LIST_MEMBER_USERNAME\" WIDTH=\"75\" HEIGHT=\"75\" CLASS=\"SearchMemberProfile\"></IMG>
-&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Search_LIST_MEMBER_USERNAME\" TITLE=\":: Open & Display The Registered Member Account Profile For :: $_Application_Module_Member_Search_LIST_MEMBER_USERNAME\">$_Application_Module_Member_Search_LIST_MEMBER_USERNAME</A><BR>
+&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Search_LIST_MEMBER_USERNAME&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Registered Member Account Profile For :: $_Application_Module_Member_Search_LIST_MEMBER_USERNAME\">$_Application_Module_Member_Search_LIST_MEMBER_USERNAME</A><BR>
 ---------------------------------<BR>
 $_Application_Module_Member_Search_LIST_MEMBER_PROFILE_ABOUT...<BR><BR>
 ");
@@ -313,7 +313,7 @@ $_Application_Module_Member_Search_LIST_NEWS_TITLE					= $_Application_Module_Me
 $_Application_Module_Member_Search_LIST_NEWS_DATA_REDUCED				= substr($_Application_Module_Member_Search_LIST_NEWS_DATA, 0, 30);
 
 echo ("
-<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_News&amp;DisplayID&#61;$_Application_Module_Member_Search_LIST_NEWS_ID\" TITLE=\":: Open & Display The News Article Entry :: $_Application_Module_Member_Search_LIST_NEWS_TITLE\">$_Application_Module_Member_Search_LIST_NEWS_TITLE</A><BR>
+<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_News&amp;DisplayID&#61;$_Application_Module_Member_Search_LIST_NEWS_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The News Article Entry :: $_Application_Module_Member_Search_LIST_NEWS_TITLE\">$_Application_Module_Member_Search_LIST_NEWS_TITLE</A><BR>
 ---------------------------------<BR>
 $_Application_Module_Member_Search_LIST_NEWS_DATA_REDUCED...<BR><BR>
 ");

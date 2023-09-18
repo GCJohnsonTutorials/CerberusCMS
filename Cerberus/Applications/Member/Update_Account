@@ -835,7 +835,7 @@ echo ("
 															<INPUT TYPE=\"text\" NAME=\"AMM_Update_Account_Member_Location_Given_Region\" VALUE=\"$_Application_Module_Member_Update_Account_LIST_MEMBER_LOCATION_GIVEN_REGION\" MAXLENGTH=\"250\"><BR><BR>
 
 														* Location :: Given :: Timezone:<BR>
-														<A HREF=\"./Theme/$_GLOBAL_MEMBER_THEME_DIRECTORY/Image/Extras/Maps/TimeZone/WorldMap_TimeZone.png\" TITLE=\":: Open & Display :: The TimeZone Map Image ::\" TARGET=\"_NEW\"></A>
+														<A HREF=\"./Theme/$_GLOBAL_MEMBER_THEME_DIRECTORY/Image/Extras/Maps/TimeZone/WorldMap_TimeZone.png?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_INTERNALFILE_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The TimeZone Map Image ::\" TARGET=\"_NEW\"></A>
 															<INPUT TYPE=\"TEXT\" NAME=\"AMM_Update_Account_Member_Location_Given_Timezone\" VALUE=\"$_Application_Module_Member_Update_Account_LIST_MEMBER_LOCATION_GIVEN_TIMEZONE\" MAXLENGTH=\"6\"><BR><BR>
 
 													<B>Location :: Physical :: Device</B><HR>
@@ -1017,7 +1017,7 @@ echo ("
 
 													<B>Account Images</B><HR>
 														* Account Images :: Profile Image:<BR>
-															[ <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files\" TITLE=\":: Upload New Profile Image ::\" TARGET=\"_NEW\">Upload New Profile Image</A> ]<BR>
+															[ <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Upload New Profile Image ::\" TARGET=\"_NEW\">Upload New Profile Image</A> ]<BR>
 															<SELECT NAME=\"AMM_Update_Account_Member_Profile_Picture\">
 ");
 

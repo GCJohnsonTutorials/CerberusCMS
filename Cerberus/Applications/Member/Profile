@@ -887,14 +887,14 @@ if ($_GET["Name"] == "$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME")
 echo ("
 											<CENTER>
 												[&nbsp;
-													<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;AccountDetails\" TITLE=\":: Open & Display :: The Detailed Information :: For The Registered Member Account :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST ::\">Detailed Information</A>
-												&#8212; <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;MediaGalleries\" TITLE=\":: Open & Display :: The Media Gallery Options :: For The Registered Member Account :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST ::\">Media Galleries</A>
-												&#8212; <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Streams\" TITLE=\":: Open & Display :: The Streams Opstions :: For The Registered Member Account :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST ::\">Streams</A>
-												&#8212; <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Friends\" TITLE=\":: Open & Display :: The Friends List :: For The Registered Member Account :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST ::\">Friends</A>
-												&#8212; <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;More\" TITLE=\":: Open & Display :: More Options :: For The Registered Member Account :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST ::\">More</A>
+													<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;AccountDetails&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Detailed Information :: For The Registered Member Account :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST ::\">Detailed Information</A>
+												&#8212; <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;MediaGalleries&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Media Gallery Options :: For The Registered Member Account :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST ::\">Media Galleries</A>
+												&#8212; <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Streams&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Streams Opstions :: For The Registered Member Account :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST ::\">Streams</A>
+												&#8212; <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Friends&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Friends List :: For The Registered Member Account :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST ::\">Friends</A>
+												&#8212; <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;More&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: More Options :: For The Registered Member Account :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST ::\">More</A>
 												&nbsp;]</CENTER>
 												<HR>
-													<A HREF=\"$_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY\" TITLE=\":: Open & Display This Registered Member Account Image ::\"><IMG SRC=\"$_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY?$_GLOBAL_SYSTEM_SECURITY_IMAGE_RANDOM_STRING_GENERATION_CACHE_CIRCUMVENTION\" TITLE=\":: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST :: $_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY ::\" ALT=\":: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST :: $_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY ::\" CLASS=\"MemberProfile\" WIDTH=\"120\" HEIGHT=\"120\"></A><BR><BR>
+													<A HREF=\"$_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_INTERNALFILE_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display This Registered Member Account Image ::\"><IMG SRC=\"$_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" TITLE=\":: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST :: $_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY ::\" ALT=\":: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST :: $_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY ::\" CLASS=\"MemberProfile\" WIDTH=\"120\" HEIGHT=\"120\"></A><BR><BR>
 													$_Application_Module_Member_Profile_LIST_MEMBER_PROFILE_ABOUT
 												<HR>
 													Forum and Comment Signature:<BR>
@@ -940,7 +940,7 @@ echo ("
 												&nbsp;*&nbsp;Gender: $_Application_Module_Member_Profile_LIST_MEMBER_GENDER_DISPLAY<BR>
 												&nbsp;*&nbsp;Member Preferred Language: $_Application_Module_Member_Profile_LIST_MEMBER_SETTINGS_LANGUAGE<BR>
 												&nbsp;*&nbsp;Member Account Profile Image: <A TITLE=\":: Registered Member Account Profile Image :: $_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY ::\">$_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY</A><BR>
-												&nbsp;*&nbsp;Member Account Avatar Image: <A HREF=\"./Theme/$_GLOBAL_MEMBER_THEME_DIRECTORY/Image/Icon_Avatar/$_Application_Module_Member_Profile_LIST_MEMBER_IMAGE_AVATAR\" TITLE=\":: Open & Display This Avatar Image ::\">$_Application_Module_Member_Profile_LIST_MEMBER_IMAGE_AVATAR</A><BR><BR>
+												&nbsp;*&nbsp;Member Account Avatar Image: <A HREF=\"./Theme/$_GLOBAL_MEMBER_THEME_DIRECTORY/Image/Icon_Avatar/$_Application_Module_Member_Profile_LIST_MEMBER_IMAGE_AVATAR?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_INTERNALFILE_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display This Avatar Image ::\">$_Application_Module_Member_Profile_LIST_MEMBER_IMAGE_AVATAR</A><BR><BR>
 
 												<I>Member' Account Details :: Social :: Preferences</I><BR>
 												&nbsp;*&nbsp;Member Marital Status: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIAL_PREFERENCE_MARITAL_STATUS_DISPLAY<BR>
@@ -980,7 +980,7 @@ echo ("
 												Location :: Given<BR>
 												&nbsp;*&nbsp;Location :: Current Given Area: $_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_GIVEN_AREA<BR>
 												&nbsp;*&nbsp;Location :: Current Given Region: $_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_GIVEN_REGION<BR>
-												&nbsp;*&nbsp;Location :: Current Given Timezone: <A HREF=\"./Theme/$_GLOBAL_MEMBER_THEME_DIRECTORY/Image/Extras/Maps/TimeZone/WorldMap_TimeZone.png\" TITLE=\":: Open & Display :: The Map :: World Map :: TimeZone ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_GIVEN_TIMEZONE</A><BR><BR>
+												&nbsp;*&nbsp;Location :: Current Given Timezone: <A HREF=\"./Theme/$_GLOBAL_MEMBER_THEME_DIRECTORY/Image/Extras/Maps/TimeZone/WorldMap_TimeZone.png?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_INTERNALFILE_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Map :: World Map :: TimeZone ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_GIVEN_TIMEZONE</A><BR><BR>
 
 												Location :: Device-Reported :: Area, Region and Timezone<BR>
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Area: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: Area ::\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_AREA</A><BR>
@@ -998,11 +998,11 @@ echo ("
 
 												<B>Member' Account Details :: Logs</B><BR>
 												&nbsp;*&nbsp;Member' Account :: Logs :: Authentication<BR>
-												&nbsp;&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Type&#61;Authentication\" TITLE=\":: Open & Display :: The Authentication Log File :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME ::\">Log File :: Authentication :: For Date: $_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL</A><BR>
+												&nbsp;&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Type&#61;Authentication&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Authentication Log File :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME ::\">Log File :: Authentication :: For Date: $_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL</A><BR>
 												&nbsp;*&nbsp;Member' Account :: Logs :: Interaction<BR>
-												&nbsp;&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Type&#61;Interaction\" TITLE=\":: Open & Display :: The Interaction Log File :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME ::\">Log File :: Interaction :: For Date: $_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL</A><BR>
+												&nbsp;&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Type&#61;Interaction&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Interaction Log File :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME ::\">Log File :: Interaction :: For Date: $_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL</A><BR>
 												&nbsp;*&nbsp;Member Account' :: Logs :: Location<BR>
-												&nbsp;&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Type&#61;GPS\" TITLE=\":: Open & Display :: The Global-Positioning-System Log File :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME ::\">Log File :: GPS :: For Date: $_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL</A><BR><BR>
+												&nbsp;&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Type&#61;GPS&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Global-Positioning-System Log File :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME ::\">Log File :: GPS :: For Date: $_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL</A><BR><BR>
 ");
 
 } else {
@@ -1087,9 +1087,9 @@ echo ("
 												&nbsp;*&nbsp; Phone Number :: Mobile Device :: $_Application_Module_Member_Profile_LIST_MEMBER_PHONE_CELL<BR>
 												&nbsp;*&nbsp; Phone Number :: Home / Residence :: $_Application_Module_Member_Profile_LIST_MEMBER_PHONE_HOME<BR>
 												&nbsp;*&nbsp; Phone Number :: Work :: $_Application_Module_Member_Profile_LIST_MEMBER_PHONE_WORK<BR>
-												&nbsp;*&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Electronic_Mail&amp;Electronic_MailID&#61;$_Application_Module_Member_Profile_LIST_MEMBER_ID\" TITLE=\":: Send Electronic Mail Message To :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME\">Electronic Mail</A><BR>
-												&nbsp;*&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Messenger&amp;Option&#61;SMS&amp;SMSID&#61;$_Application_Module_Member_Profile_LIST_MEMBER_ID\" TITLE=\":: Send Short Message Service Message To :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME\">Short Messaging Service</A><BR>
-												&nbsp;*&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Messenger&amp;Option&#61;MMS&amp;MMSID&#61;$_Application_Module_Member_Profile_LIST_MEMBER_ID\" TITLE=\":: Send Multimedia Messaging Service Message To :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME\">Multimedia Messaging Service</A><BR>
+												&nbsp;*&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Electronic_Mail&amp;Electronic_MailID&#61;$_Application_Module_Member_Profile_LIST_MEMBER_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Send Electronic Mail Message To :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME\">Electronic Mail</A><BR>
+												&nbsp;*&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Messenger&amp;Option&#61;SMS&amp;SMSID&#61;$_Application_Module_Member_Profile_LIST_MEMBER_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Send Short Message Service Message To :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME\">Short Messaging Service</A><BR>
+												&nbsp;*&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Messenger&amp;Option&#61;MMS&amp;MMSID&#61;$_Application_Module_Member_Profile_LIST_MEMBER_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Send Multimedia Messaging Service Message To :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME\">Multimedia Messaging Service</A><BR>
 												&nbsp;*&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Messenger&amp;Option&#61;InstantMessage&amp;MemberAccountID&#61;$_Application_Module_Member_Profile_LIST_MEMBER_ID\" TITLE=\":: Send Instant Messenger Message To :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME\">Instant Messenger</A><BR>
 												&nbsp;*&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Messenger&amp;Option&#61;PrivateMessage&amp;MemberAccountID&#61;$_Application_Module_Member_Profile_LIST_MEMBER_ID\" TITLE=\":: Send Private Message To :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME\">Private Message</A><BR><BR>
 ");
@@ -1104,7 +1104,7 @@ echo ("
 
 												<I>Member' Account Details :: Personal Servers</I><BR>
 												&nbsp;*&nbsp;Personal :: <A HREF=\"$_Application_Module_Member_Profile_LIST_MEMBER_HOMEPAGE\" TITLE=\":: Open & Display :: This Registered Member Account :: Personal Web-Page ::\">Web-Page Document :: External Server</A><BR>
-												&nbsp;*&nbsp;Personal :: <A HREF=\"./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/\" TITLE=\":: Open & Display :: This Registered Member Account :: Home Web-Space ::\">Web-Page Document :: Local Server</A><BR><BR>
+												&nbsp;*&nbsp;Personal :: <A HREF=\"./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_INTERNALFILE_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: This Registered Member Account :: Home Web-Space ::\">Web-Page Document :: Local Server</A><BR><BR>
 
 												<I>Member' Account Details :: Account Statistics</I><BR>
 												&nbsp;*&nbsp;Experience Amount: $_Application_Module_Member_Profile_LIST_MEMBER_EXPERIENCE_AMOUNT<BR>
@@ -1308,7 +1308,7 @@ echo ("Cerberus: This Registered Member Account Details Section Is Marked Privat
 echo ("
 
 											<HR>
-											[ <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME\" TITLE=\":: Close :: More Information ::\">Close</A> ]<BR><BR>
+											[ <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Close :: More Information ::\">Close</A> ]<BR><BR>
 ");
 
 } // [ + ] IF: Internal Application: Display :: Registered Member Account :: Extensive Information Is Activated
@@ -1326,7 +1326,7 @@ echo ("
 if ($_GET["Display"] == "Friends") {
 
 echo ("
-			<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Friend&amp;AddFriend&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME\" TITLE=\":: Add :: This Registered Member Account :: To My Friend List ::\">Add This Registered Member Account To Friend List</A><BR><BR>
+			<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Friend&amp;AddFriend&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Add :: This Registered Member Account :: To My Friend List ::\">Add This Registered Member Account To Friend List</A><BR><BR>
 
 			<B>Friend List</B><BR>
 ");
@@ -1355,7 +1355,7 @@ if ($_Application_Module_Member_Profile_READ_DIRECTORY_FRIEND_LIST == "." || $_A
 } else {
 
 echo ("
-* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_READ_DIRECTORY_FRIEND_LIST\" TITLE=\":: Open & Display :: The Registered Member Account :: Profile :: For Friend :: $_Application_Module_Member_Profile_READ_DIRECTORY_FRIEND_LIST ::\">$_Application_Module_Member_Profile_READ_DIRECTORY_FRIEND_LIST</A><BR>
+* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_READ_DIRECTORY_FRIEND_LIST&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Registered Member Account :: Profile :: For Friend :: $_Application_Module_Member_Profile_READ_DIRECTORY_FRIEND_LIST ::\">$_Application_Module_Member_Profile_READ_DIRECTORY_FRIEND_LIST</A><BR>
 ");
 
 } // [ + ] IF: Stop :: Exploit :: Local-File-Inclusion and Remote-File-Inclusion
@@ -1469,10 +1469,10 @@ echo ("
 
 											<CENTER>
 												[&nbsp;
-													<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;MediaGalleries&amp;Type&#61;Audio\" TITLE=\":: Open & Display :: The Media Gallery :: Audio :: For The Registered Member Account :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST ::\">Audio</A>
-													&#8212; <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;MediaGalleries&amp;Type&#61;Document\" TITLE=\":: Open & Display :: The Media Gallery :: Documents :: For The Registered Member Account :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST ::\">Document</A>
-													&#8212; <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;MediaGalleries&amp;Type&#61;Image\" TITLE=\":: Open & Display :: The Media Gallery :: Images :: For The Registered Member Account :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST ::\">Image</A>
-													&#8212; <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;MediaGalleries&amp;Type&#61;Video\" TITLE=\":: Open & Display :: The Media Gallery :: Videos :: For The Registered Member Account :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST ::\">Video</A>
+													<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;MediaGalleries&amp;Type&#61;Audio&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Media Gallery :: Audio :: For The Registered Member Account :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST ::\">Audio</A>
+													&#8212; <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;MediaGalleries&amp;Type&#61;Document&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Media Gallery :: Documents :: For The Registered Member Account :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST ::\">Document</A>
+													&#8212; <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;MediaGalleries&amp;Type&#61;Image&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Media Gallery :: Images :: For The Registered Member Account :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST ::\">Image</A>
+													&#8212; <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;MediaGalleries&amp;Type&#61;Video&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Media Gallery :: Videos :: For The Registered Member Account :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST ::\">Video</A>
 												&nbsp;]
 											</CENTER>
 ");
@@ -1489,7 +1489,7 @@ echo ("
 
 if ($_GET["Type"] == "Audio") {
 
-echo ("Audio Gallery - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files\" TARGET=\"_NEW\" TITLE=\":: Open & Display The Private Files Upload Application Module ::\">Upload Audio</A>");
+echo ("Audio Gallery - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TARGET=\"_NEW\" TITLE=\":: Open & Display The Private Files Upload Application Module ::\">Upload Audio</A>");
 
 } // [ + ] IF: Internal Application: Display :: Media Galleries :: Gallery :: Type :: Audio Is Activated
 
@@ -1505,7 +1505,7 @@ echo ("Audio Gallery - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Priva
 
 if ($_GET["Type"] == "Document") {
 
-echo ("Document Gallery - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files\" TARGET=\"_NEW\" TITLE=\":: Open & Display The Private Files Upload Application Module ::\">Upload Documents</A>");
+echo ("Document Gallery - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TARGET=\"_NEW\" TITLE=\":: Open & Display The Private Files Upload Application Module ::\">Upload Documents</A>");
 
 } // [ + ] IF: Internal Application: Display :: Media Galleries :: Gallery :: Type :: Document Is Activated
 
@@ -1521,7 +1521,7 @@ echo ("Document Gallery - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Pr
 
 if ($_GET["Type"] == "Image") {
 
-echo ("<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files\" TARGET=\"_NEW\" TITLE=\":: Open & Display :: The Private Files :: Application :: Upload Images ::\">Upload Images</A><BR><BR>");
+echo ("<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TARGET=\"_NEW\" TITLE=\":: Open & Display :: The Private Files :: Application :: Upload Images ::\">Upload Images</A><BR><BR>");
 
 /*
  ============================================================================================================
@@ -1560,7 +1560,7 @@ if ($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE == 
 **/
 } else {
 
-echo ("* <A HREF=\"./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/Files/Image/Gallery/$_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE\" TITLE=\":: Open & Display :: The Media Gallery :: Image :: For :: Registered Member Account :: \">$_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE</A><BR>");
+echo ("* <A HREF=\"./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/Files/Image/Gallery/$_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Media Gallery :: Image :: For :: Registered Member Account :: \">$_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE</A><BR>");
 
 } // [ + ] WHILE: Reading Directory: Registered Member Account :: Gallery :: Image
 
@@ -1580,7 +1580,7 @@ echo ("* <A HREF=\"./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USER
 
 if ($_GET["Type"] == "Video") {
 
-echo ("Video Gallery - Live Video Gallery - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files\" TARGET=\"_NEW\" TITLE=\":: Open & Display The Private Files Upload Application Module ::\">Upload Videos</A>");
+echo ("Video Gallery - Live Video Gallery - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TARGET=\"_NEW\" TITLE=\":: Open & Display The Private Files Upload Application Module ::\">Upload Videos</A>");
 
 } // [ + ] IF: Internal Application: Display :: Media Galleries :: Gallery :: Type :: Video Is Activated
 
@@ -1673,7 +1673,7 @@ if ($_Application_Module_Member_Profile_Streams_READ_DIRECTORY_STREAMS_SEARCH ==
 
 if ($_GET["Display"] == "Streams") {
 
-echo ("<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Streams&amp;Write&#61;NewStream\" TITLE=\":: Open & Display :: The :: New Stream :: Application ::\">Write New Stream</A> - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Streams\" TITLE=\":: Open & Display :: The :: Live Video Stream :: Application ::\">Live Video Stream</A> - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Search&#61;ArchivedStream\" TITLE=\":: Search & Display :: Streams :: Archived Streams ::\">Search Archived Streams</A><BR><BR>");
+echo ("<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Streams&amp;Write&#61;NewStream&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The :: New Stream :: Application ::\">Write New Stream</A> - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Streams&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The :: Live Video Stream :: Application ::\">Live Video Stream</A> - <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Search&#61;ArchivedStream&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Search & Display :: Streams :: Archived Streams ::\">Search Archived Streams</A><BR><BR>");
 
 /*
  ============================================================================================================
@@ -1798,9 +1798,9 @@ fwrite($_Application_Module_Member_Profile_OPEN_DIRECTORY_MEMBER_FILE_TIMESTAMP_
 	<HR>
 <B>$_Application_Module_Member_Profile_POST_STREAM_NAME</B>
 	<HR>
-		<A HREF=\"$_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY\" TARGET=\"_NEW\" TITLE=\":: Open & Display This Registered Member Account Profile Image :: \"><IMG SRC=\"$_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY?$_GLOBAL_SYSTEM_SECURITY_IMAGE_RANDOM_STRING_GENERATION_CACHE_CIRCUMVENTION\" WIDTH=\"50\" HEIGHT=\"50\" CLASS=\"StreamImageMessage\"></A>
+		<A HREF=\"$_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" TARGET=\"_NEW\" TITLE=\":: Open & Display This Registered Member Account Profile Image :: \"><IMG SRC=\"$_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" WIDTH=\"50\" HEIGHT=\"50\" CLASS=\"StreamImageMessage\"></A>
 			&nbsp;&nbsp;
-			<I><A HREF=\"$_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST</A> Wrote:</B><BR><BR>
+			<I><A HREF=\"$_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST</A> Wrote:</B><BR><BR>
 			<BIG>&quot;</BIG> $_Application_Module_Member_Profile_POST_STREAM_DATA <BIG>&quot;</BIG><BR><BR>
 	<HR>
 			<B>Timestamp</B><BR>
@@ -1867,8 +1867,8 @@ if (move_uploaded_file($_FILES['AMM_Profile_Streams_Upload_File_Multiple']['tmp_
 */
 
 fwrite($_Application_Module_Member_Profile_OPEN_DIRECTORY_MEMBER_FILE_TIMESTAMP_STREAM, "
-		<A HREF=\"./$_Application_Module_Member_Profile_FIND_DIRECTORY_MEMBER_STREAMS_WALL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL/$_GLOBAL_LOCAL_SERVER_DATE_TIME_NUMERICAL_FULL/$_Application_Module_Member_Profile_STREAMS_GENERATOR_RANDOM_NUMBERS.$_Application_Module_Member_Profile_STREAMS_POST_UPLOAD_FILE_NAME\" TITLE=\":: Open & Display :: This Stream Image File :: $_Application_Module_Member_Profile_STREAMS_GENERATOR_RANDOM_NUMBERS.$_Application_Module_Member_Profile_STREAMS_POST_UPLOAD_FILE_NAME ::\">
-			<IMG SRC=\"./$_Application_Module_Member_Profile_FIND_DIRECTORY_MEMBER_STREAMS_WALL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL/$_GLOBAL_LOCAL_SERVER_DATE_TIME_NUMERICAL_FULL/$_Application_Module_Member_Profile_STREAMS_GENERATOR_RANDOM_NUMBERS.$_Application_Module_Member_Profile_STREAMS_POST_UPLOAD_FILE_NAME\" WIDTH=\"75\" HEIGHT=\"75\" CLASS=\"StreamImageMessage\"></IMG>
+		<A HREF=\"./$_Application_Module_Member_Profile_FIND_DIRECTORY_MEMBER_STREAMS_WALL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL/$_GLOBAL_LOCAL_SERVER_DATE_TIME_NUMERICAL_FULL/$_Application_Module_Member_Profile_STREAMS_GENERATOR_RANDOM_NUMBERS.$_Application_Module_Member_Profile_STREAMS_POST_UPLOAD_FILE_NAME?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: This Stream Image File :: $_Application_Module_Member_Profile_STREAMS_GENERATOR_RANDOM_NUMBERS.$_Application_Module_Member_Profile_STREAMS_POST_UPLOAD_FILE_NAME ::\">
+			<IMG SRC=\"./$_Application_Module_Member_Profile_FIND_DIRECTORY_MEMBER_STREAMS_WALL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL/$_GLOBAL_LOCAL_SERVER_DATE_TIME_NUMERICAL_FULL/$_Application_Module_Member_Profile_STREAMS_GENERATOR_RANDOM_NUMBERS.$_Application_Module_Member_Profile_STREAMS_POST_UPLOAD_FILE_NAME?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_INTERNALFILE_RANDOM_STRING_GENERATION\" WIDTH=\"75\" HEIGHT=\"75\" CLASS=\"StreamImageMessage\"></IMG>
 				</A>&nbsp;
 ");
 

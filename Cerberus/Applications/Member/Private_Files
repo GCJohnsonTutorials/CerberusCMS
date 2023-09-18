@@ -149,11 +149,11 @@ $_Application_Module_Members_Private_Files_POST_CREATE_DIRECTORY_GALLERY_VIDEO_L
 
 echo ("
 	<CENTER>
-	<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files&amp;Display&#61;Gallery&amp;Type&#61;Audio\" TITLE=\":: Open & Display :: The Audio Gallery :: Management Options ::\">Audio</A> -
-	<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files&amp;Display&#61;Gallery&amp;Type&#61;Document\" TITLE=\":: Open & Display :: The Document Gallery :: Management Options ::\">Document</A> -
-	<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files&amp;Display&#61;Gallery&amp;Type&#61;Image\" TITLE=\":: Open & Display :: The Image Gallery :: Management Options ::\">Image</A> -
-	<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files&amp;Display&#61;Gallery&amp;Type&#61;Video\" TITLE=\":: Open & Display :: The Video Gallery :: Management Options ::\">Video</A> -
-	<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files&amp;Display&#61;Gallery&amp;Type&#61;LiveVideo\" TITLE=\":: Open & Display :: The Live Video Gallery :: Management Options ::\">Live Video</A>
+	<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files&amp;Display&#61;Gallery&amp;Type&#61;Audio&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Audio Gallery :: Management Options ::\">Audio</A> -
+	<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files&amp;Display&#61;Gallery&amp;Type&#61;Document&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Document Gallery :: Management Options ::\">Document</A> -
+	<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files&amp;Display&#61;Gallery&amp;Type&#61;Image&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Image Gallery :: Management Options ::\">Image</A> -
+	<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files&amp;Display&#61;Gallery&amp;Type&#61;Video&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Video Gallery :: Management Options ::\">Video</A> -
+	<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Private_Files&amp;Display&#61;Gallery&amp;Type&#61;LiveVideo&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Live Video Gallery :: Management Options ::\">Live Video</A>
 	</CENTER>
 	<HR>
 ");
